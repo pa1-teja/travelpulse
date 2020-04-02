@@ -1,0 +1,64 @@
+version 2.0.7
+=>Upload document feature added to store Insurance, PUC, RC documents related to vehicle at one place.
+=>Minor bugs fixed.
+
+version 2.0.8
+=>Vehicle Travel performance feature added.
+=>Minor bugs fixed.
+
+version 2.0.9
+=>Near by places service added, user can browse near by petrol pumps, hospitals, fire station, police station etc. for emergency.
+=>Minor bugs fixed.
+=>Notification Set Preference UI improved.
+
+version 2.1.0
+=>Replay service exteded for 24 hours.
+=>Near by places accuracy improved.
+=>Notification related bugs fixed.
+
+version 2.1.1
+=> Vehicle master UI improved.
+=> Driver master UI improved.
+=> Fleet Sub user UI improved.
+=>Notification related bugs fixed.
+
+version 2.1.2
+=>Vehicle replay improved.
+=>VTS is now available for bike monitoring.
+
+version 2.1.3
+=>Compatibility with Android 10.
+=>No network and gps alert shows in application.
+=>Minor bugs fixed.
+
+version 2.1.4
+=>skip
+
+version 2.1.5
+=>Improved application stability.
+
+version 2.1.6
+=>Minor bugs fixed.
+
+version 2.1.7
+=>Force update feature to keep up to date.
+=>Minor bugs fixed.
+
+version 2.1.8
+=>app auto start after 20 mins
+=>vehicle movement replay problem fixed for samsung devices.
+=>notification filter - vehicle list not loaded
+=>reports vehicle list not loaded fixed.
+=>Device or android version wise setting added.
+=>no network, no gps replaced with waiting for network.
+=>vehicle travel performance >70 km/hr for dangerous speed for two wheeler.
+=>FAQ screen added for frequently questions.
+
+version 2.1.9
+=>notification click navigate to notification activity.
+=>fixed application crashing.
+=>report demo design design
+
+
+
+
