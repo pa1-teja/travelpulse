@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true">
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar_vehicle_master"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:background="@color/header_background_color"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/toolbar_vehicle_master">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginTop="10dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_exp_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:hint="Expiry Date"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/one"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginTop="5dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:maxLines="2"
+                android:digits="@string/inputvalidation"
+                android:gravity="start|top"
+                android:hint="Description"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Spinner
+            android:id="@+id/insurance_co"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@+id/two"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_policy_no"
+            android:layout_below="@+id/insurance_co"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:visibility="gone">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_policy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Policy No"
+                android:singleLine="true"
+                android:maxLength="20"
+                android:inputType="number"
+                android:digits="0123456789"
+                android:layout_below="@+id/edt_des"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_amount"
+            android:layout_below="@+id/til_policy_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginTop="5dp"
+            android:visibility="gone">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_amt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Insurance Amount"
+                android:inputType="number"
+                android:digits="0123456789"
+                android:maxLength="7"
+                android:singleLine="true"
+                android:layout_below="@+id/edt_policy" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/v_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Browse File"
+            android:textColor="@color/black"
+            android:layout_below="@+id/til_amount"
+            android:layout_marginTop="32dp"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/attachment_camera"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/v_file"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/til_amount"
+            android:visibility="gone"
+            android:src="@drawable/ic_photo_camera_black_24dp"
+            />
+
+        <ImageView
+            android:id="@+id/attachment_pdf"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/attachment_doc"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/til_amount"
+            android:visibility="gone"
+            android:src="@drawable/ic_picture_as_pdf_black_24dp" />
+
+        <ImageView
+            android:id="@+id/attachment_doc"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/attachment_camera"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/til_amount"
+            android:src="@drawable/ic_photo_library_black_24dp"
+            />
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/v_file"
+            android:layout_above="@+id/save_doc"
+            android:visibility="gone"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/succes_attach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/v_file"
+            android:text=""
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:drawableStart="@drawable/ic_attach_file_black_24dp"
+            android:drawablePadding="5dp"
+            android:padding="10dp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/attach_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/succes_attach"
+            android:text=""
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:layout_marginTop="1dp"
+            android:drawablePadding="5dp"
+            android:padding="5dp"
+            />
+
+        <Button
+            android:id="@+id/save_doc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="1dp"
+            android:text="Save"
+            android:textSize="20dp"
+            android:layout_margin="1dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/succes_attach"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="50dp"
+            android:lineSpacingExtra="5dp"
+            android:padding="5dp"
+            android:text="@string/note_for_file_upload"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+</ScrollView>

@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:id="@+id/vtsmapllReplay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btTrack"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:id="@+id/relvtsgoogleMapReplay"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <fragment
+                android:id="@+id/vtsgoogleMapReplay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:name="com.trimax.vts.view.maps.CustomMapFragment"/>
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/toolId"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/gmap"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+
+            <TextView
+                android:id="@+id/setPanId"
+                android:layout_width="22dp"
+                android:layout_height="21dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/car_background_drawable"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/fa_car"
+                android:textColor="@color/white_color"
+                android:textSize="@dimen/map_text_size" />
+
+
+            <TextView
+                android:id="@+id/mapchangeID"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="15dp"
+                android:layout_below="@+id/setPanId"
+                android:gravity="center"
+                android:background="@drawable/circular_shape_background"
+                android:layout_marginTop="10dp"
+                android:text="@string/fa_map"
+                android:clickable="true"
+                android:focusable="true"
+                android:visibility="visible"
+                android:textColor="@color/white_color"
+                android:textSize="@dimen/map_text_size"/>
+
+
+            <com.appyvet.rangebar.RangeBar
+                xmlns:custom="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/rangebar"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                custom:tickStart="200"
+                custom:tickInterval="-40"
+                custom:tickEnd="0"
+                custom:rangeBarColor="#801E90FF"
+                custom:rangeBar="false"
+                custom:tickColor="@color/ambulance_color"
+                custom:selectorColor="@color/road_pulse_blue_color"
+                custom:pinColor="@color/white_color"
+                custom:connectingLineColor="#801E90FF"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="70dp"/>
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:background="#80000000"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:id="@+id/linProgress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/trackProgressIcon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="@string/fa_spinner"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/replyinProgress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:gravity="center"
+                        android:textSize="18sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="visible"
+                    android:id="@+id/linProgressDone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/ic_progressDone"
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:id="@+id/distLayId"
+                    android:visibility="invisible"
+                    android:layout_marginEnd="100dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Dist: "
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/distanceTrvlID"
+                        android:layout_width="wrap_content"
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/txtVehNameReplay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:maxLines="1"
+                            android:textColor="#fff"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txtVehRegNoReplay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="#fff"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtVehSpeedReplay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="#fff"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txtVehIgnitionReplay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#fff"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txtVehAcReplay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#fff"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/txtVehDateTimeReplay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#fff"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/maxminMapIconReplay"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="40dp"
+                    android:layout_centerInParent="true"
+                    android:clickable="true"
+                    android:onClick="maxminMapClicked"
+                    android:src="@drawable/maximize"
+                    android:tag="min" />
+                <TextView
+                    android:id="@+id/vtsCarIcon"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_centerInParent="true"
+                    android:text="@string/fa_car"
+                    android:clickable="true"
+                    android:textColor="#fff"
+                    android:textSize="16dp"
+                    android:onClick="vtsCarMapClicked"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/FromDateLinearLayout"
+            android:paddingTop="5dp"
+            android:paddingLeft="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/dateLayID"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColorHint="#688FAF">
+
+                    <EditText
+                        android:id="@+id/txtFromValue"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textSize="14sp"
+                        android:hint="From Date"
+                        android:focusable="false"
+                        android:textColorHint="#688FAF" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/xfrmdate"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:textSize="14dp"
+                    android:text="@string/fa_times_circle"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/timeLayID"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColorHint="#688FAF">
+                    <EditText
+                        android:id="@+id/timeFromValue"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="14sp"
+                        android:layout_marginLeft="5dp"
+                        android:hint="From Time"
+                        android:focusable="false"
+                        android:textColorHint="#688FAF" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/xfrmtime"
+                    android:layout_width="20dp"
+                    android:layout_gravity="center"
+                    android:layout_height="20dp"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/fa_times_circle"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ToDateLinearLayout"
+            android:paddingTop="5dp"
+            android:paddingLeft="7dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_marginRight="10dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/todateLayID"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColorHint="#688FAF">
+                    <EditText
+                        android:id="@+id/txtToValue"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textSize="14sp"
+                        android:hint="To Date"
+                        android:focusable="false"
+                        android:textColorHint="#688FAF" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+                <TextView
+                    android:id="@+id/xtodate"
+                    android:layout_gravity="center"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/fa_times_circle"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:layout_marginEnd="10dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/toTimeLayID"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColorHint="#688FAF">
+                    <EditText
+                        android:id="@+id/timeToValue"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="14sp"
+                        android:layout_marginStart="5dp"
+                        android:hint="To Time"
+                        android:focusable="false"
+                        android:textColorHint="#688FAF" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/xtotime"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center"
+                    android:text="@string/fa_times_circle"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btTrack"
+        style="@style/button_comman1"
+        android:layout_alignParentBottom="true"
+        android:text="Track"
+        android:textStyle="bold" />
+
+</RelativeLayout>

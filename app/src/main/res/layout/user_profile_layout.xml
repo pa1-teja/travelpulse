@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_fname"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etFirstName"
+                        style="@style/edittext_comman_profiles"
+                        android:layout_marginTop="20dp"
+                        android:hint="First Name"
+                        android:background="@drawable/edittextd"
+                        android:focusable="false"
+                        android:inputType="none" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_lname"
+                    android:layout_below="@+id/til_fname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etLastName"
+                        style="@style/edittext_comman_profiles"
+                        android:layout_marginTop="10dp"
+                        android:hint="Last Name"
+                        android:background="@drawable/edittextd"
+                        android:focusable="false"
+                        android:inputType="none" />
+                  <!--  android:textColorHint="#688FAF"-->
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_email"
+                    android:layout_below="@+id/til_lname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etEmailAddress"
+                        style="@style/edittext_comman_profiles"
+                        android:layout_marginTop="10dp"
+                        android:hint="Email Id"
+                        android:textColorHint="#688FAF"
+                        android:focusable="false"
+                        android:background="@drawable/edittextd"
+                        android:inputType="none"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_mobile"
+                    android:layout_below="@+id/til_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etMobileNo"
+                        style="@style/edittext_comman_profiles"
+                        android:layout_marginTop="10dp"
+                        android:hint="Mobile Number"
+                        android:maxLength="10"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:background="@drawable/edittextd"
+                        android:textColorHint="#688FAF" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+</RelativeLayout>

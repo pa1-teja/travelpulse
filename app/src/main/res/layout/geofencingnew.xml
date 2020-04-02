@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/vtsmapllGeof"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/backgroundcolour"
+        android:weightSum="1" >
+
+        <RelativeLayout
+            android:id="@+id/relvtsgoogleMapGeof"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6" >
+
+           <!-- <fragment
+                android:id="@+id/place_autocomplete"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+                />
+-->
+            <fragment
+                android:id="@+id/googleMap"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:name="com.trimax.vts.view.maps.CustomMapFragment" />
+            <TextView
+                android:id="@+id/setPanId"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:background="@drawable/car_background_drawable"
+                android:text="@string/fa_car"
+                android:clickable="true"
+                android:textColor="@color/white_color"
+                android:textSize="@dimen/map_text_size"
+                />
+            <RelativeLayout
+                android:id="@+id/relative_layout_head"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:background="#80000000"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/addMapIconGeof"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="@string/fa_plus_circle"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"
+                    android:tag="add" />
+
+                <TextView
+                    android:id="@+id/autoFenceMapIconGeof"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/addMapIconGeof"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="@string/fa_autofence"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+
+                    />
+
+                <TextView
+                    android:id="@+id/cancelMapIconGeof"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="@string/fa_close"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:visibility="gone"
+
+                    />
+                <TextView
+                    android:id="@+id/saveMapIconGeof"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/cancelMapIconGeof"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="@string/fa_save"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:visibility="gone"
+                    />
+                <TextView
+                    android:id="@+id/vtsCarIcon"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_toLeftOf="@+id/maxminMapIconGeof"
+                    android:text="@string/fa_car"
+                    android:clickable="true"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:layout_marginTop="13dp"
+                    android:onClick="vtsCarMapClicked"/>
+                <ImageView
+                    android:id="@+id/maxminMapIconGeof"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:clickable="true"
+                    android:onClick="maxminMapClicked"
+                    android:src="@drawable/maximize"
+                    android:tag="min" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/HeaderLayout"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/txtHeaderIndicator"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:clickable="true"
+                android:text="@string/fa_square_o"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:visibility="gone"
+                android:textColor="@color/text_color"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="15dp" />
+
+            <TextView
+                android:id="@+id/txtHeader"
+                style="@style/common_style"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:textSize="17sp"
+                android:visibility="gone"
+                android:text="All Fences"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/saveAllGeo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="@string/fa_save"
+                android:textSize="20sp"
+                android:visibility="gone"
+                android:gravity="center_vertical"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/cancelAllGeo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="@string/fa_close"
+                android:textSize="20sp"
+                android:visibility="gone"
+                android:gravity="center_vertical"
+                android:layout_marginRight="10dp" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="search...."
+            android:paddingLeft="5dp"
+            android:focusable="true"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:maxLength="15"
+            android:visibility="gone"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:id="@+id/Nogeofence"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="No GeoFence Found"/>
+        <ListView
+            android:id="@+id/vtslistviewGeof"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4">
+        </ListView>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="save"
+            android:visibility="gone" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "827327629855",
+    "firebase_url": "https://travelpulse-728ba.firebaseio.com",
+    "project_id": "travelpulse-728ba",
+    "storage_bucket": "travelpulse-728ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827327629855:android:63ed0d1a1161424681e32a",
+        "android_client_info": {
+          "package_name": "com.trimax.vts.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827327629855-sjlgcnbt66nta18n2q0tcogu84o1pl7p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trimax.vts.mobile",
+            "certificate_hash": "452c4a4a86682701747f2222cbafe147c0539b52"
+          }
+        },
+        {
+          "client_id": "827327629855-cboeif955lv2vfehikpop175sjfdoigb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_OM4fIYLFqRMVwBzNBci7fMzGB4H7yhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827327629855-cboeif955lv2vfehikpop175sjfdoigb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

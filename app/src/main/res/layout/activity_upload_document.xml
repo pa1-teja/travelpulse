@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar_vehicle_master"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:theme="@style/AppTheme.AppBarOverlay">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:background="@color/road_pulse_action_bar_color">
+
+                        <androidx.appcompat.widget.SearchView
+                            android:id="@+id/search_view_vehicles"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layoutDirection="rtl"
+                            android:layout_margin="8dp"
+                            android:padding="4dp"
+                            android:gravity="end"
+                            android:visibility="gone" />
+
+
+            </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <EditText
+        android:id="@+id/et_search_vehicle_master"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="search...."
+        android:paddingLeft="5dp"
+        android:visibility="gone"
+        android:focusable="true"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:maxLength="15"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/toolbar_vehicle_master" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_upload_document"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:layout_below="@+id/et_search_vehicle_master">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_vehicle_master"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        card_view:cardCornerRadius="1dp"
+        android:visibility="gone"
+        android:layout_below="@id/toolbar_vehicle_master"
+        card_view:cardElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgNorecordFoundVehicleMaster"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/blood_color" />
+
+            <TextView
+                android:id="@+id/txtRetryVehicleMaster"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Retry"
+                android:textColor="@color/blood_color"
+                android:textSize="15dp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

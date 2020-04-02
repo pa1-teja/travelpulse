@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="true"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/click_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.23"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/txtRegNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    style="@style/common_style"
+                    android:text="Regn No"
+                    android:textSize="16sp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp" >
+
+                <TextView
+                    android:id="@+id/txtVehName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Name"
+                    style="@style/common_style"
+                    />
+
+
+                <TextView
+                    android:id="@+id/txtMake"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="make"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center"
+                    style="@style/common_style" />
+
+                <TextView
+                    android:id="@+id/txtModel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/txtMake"
+                    android:layout_marginLeft="5dp"
+                    android:text="model"
+                    style="@style/common_style" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="right">
+            <ImageView
+                android:id="@+id/txteditgeo"
+                style="@style/page_header_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/edit_geo"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/txtupdategeo"
+                style="@style/page_header_icon"
+                android:layout_width="20dp"
+                android:layout_height="18dp"
+                android:src="@drawable/editgeoo" />
+            <ImageView
+                android:id="@+id/txtdeletegeo"
+                style="@style/page_header_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/delgeo"
+                />
+        </LinearLayout>
+
+</LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="gone"
+        android:background="@color/red_color"/>
+
+</LinearLayout>

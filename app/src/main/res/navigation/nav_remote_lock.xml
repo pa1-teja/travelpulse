@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_remote_lock"
+    app:startDestination="@id/vehicleLockHomeFragment">
+    <activity
+        android:id="@+id/navigationPerformanceActivity"
+        android:name="com.trimax.vts.vehicle_lock.VehicleLockActivity"
+        android:label="activity_navigation_performance"
+        tools:layout="@layout/activity_vehicle_lock" />
+    <fragment
+        android:id="@+id/vehicleLockHomeFragment"
+        android:name="com.trimax.vts.vehicle_lock.VehicleLockHomeFragment"
+        android:label="fragment_vehicle_lock_home"
+        tools:layout="@layout/fragment_vehicle_lock_home" >
+        <action
+            android:id="@+id/action_vehicleLockHomeFragment_to_pinValidationFragment"
+            app:destination="@id/pinValidationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pinValidationFragment"
+        android:name="com.trimax.vts.vehicle_lock.PinValidationFragment"
+        android:label="fragment_pin_validation"
+        tools:layout="@layout/fragment_pin_validation" />
+</navigation>

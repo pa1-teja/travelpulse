@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+                <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar_add_driver"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:background="@color/header_background_color"
+                app:popupTheme="@style/AppTheme.PopupOverlay">
+            </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/edt_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_below="@+id/toolbar_add_driver">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_driver_name"
+                        style="@style/edittext_comman_profiles"
+                        android:hint="Name"
+                        android:inputType="text"
+                        android:digits="@string/inputvalidationname"
+                        android:background="@drawable/edittextd"
+                        android:textColorHint="#688FAF"
+                        android:textSize="16sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/edt_two"
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_below="@+id/edt_one">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_liecense_no"
+                        style="@style/edittext_comman_profiles"
+                        android:hint="Licence number"
+                        android:layout_below="@+id/et_driver_name"
+                        android:background="@drawable/edittextd"
+                        android:textColorHint="#688FAF"
+                        android:inputType="text"
+                        android:digits="@string/inputvalidationlicense"
+                        android:maxLength="16"
+                        android:textSize="16sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/edt_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_below="@+id/edt_two">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_liecense_expiry"
+                        style="@style/edittext_comman_profiles"
+                        android:editable="false"
+                        android:hint="Licence Expiry"
+                        android:textColorHint="#688FAF"
+                        android:focusable="false"
+                        android:background="@drawable/edittextd"
+                        android:textSize="16sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/edt_four"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_below="@+id/edt_three">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_mobile_no"
+                        style="@style/edittext_comman_profiles"
+                        android:hint="Mobile Number"
+                        android:inputType="phone"
+                        android:textColorHint="#688FAF"
+                        android:digits="1234567890"
+                        android:maxLength="10"
+                        android:background="@drawable/edittextd"
+                        android:textSize="16sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/edt_five"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_below="@id/edt_four">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_description"
+                        style="@style/edittext_comman_profiles"
+                        android:inputType="text"
+                        android:textColorHint="#688FAF"
+                        android:background="@drawable/edittextd"
+                        android:lines="2"
+                        android:maxLines="2"
+                        android:digits="@string/inputvalidation"
+                        android:gravity="start|top"
+                        android:hint="Description"
+                        android:textSize="16sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/v_file"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Browse File"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="32dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_below="@id/edt_five"/>
+
+                <ImageView
+                    android:id="@+id/attachment_doc"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@+id/v_file"
+                    android:layout_below="@id/edt_five"
+                    android:src="@drawable/ic_photo_library_black_24dp" />
+
+                <TextView
+                    android:id="@+id/succes_attach"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/v_file"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:visibility="gone"
+                    android:drawableLeft="@drawable/ic_attach_file_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:padding="5dp" />
+                <TextView
+                    android:id="@+id/note"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/succes_attach"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="50dp"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_marginStart="5dp"
+                    android:padding="5dp"
+                    android:text="@string/note_for_file_upload"
+                    android:textColor="@color/black" />
+
+
+
+    <Button
+        android:id="@+id/btn_add_driver"
+        style="@style/button_comman"
+        android:layout_alignParentBottom="true"
+        android:text="Add Driver"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.trimax.vts.vehicle_lock.VehicleLockHomeFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/header"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/tv_vehicle_no"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="MH-12 0A1234"
+                style="@style/RemoteTextview" />
+
+            <TextView
+                android:id="@+id/tv_make_model"
+                android:text="Honda City"
+                style="@style/RemoteTextview"/>
+
+            <TextView
+                android:id="@+id/tv_current_status"
+                style="@style/RemoteTextview"
+                android:layout_height="wrap_content"
+                android:text="Current Status : Unlocked"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_make_model" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:text="Location : "
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:gravity="end|center"
+                    android:textColor="@color/black"
+                    android:drawableLeft="@drawable/ic_location"
+                    android:layout_height="wrap_content"/>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/location"
+                    android:text="Address"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:weightSum="3">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:text="Date Time : "
+                    android:textColor="@color/black"
+                    android:gravity="end|center"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:drawableLeft="@drawable/ic_calendar"
+                    android:layout_height="wrap_content"/>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/date"
+                    android:text="Address"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+           <androidx.appcompat.widget.AppCompatButton
+               android:id="@+id/change_lock_status"
+               android:layout_marginTop="30dp"
+               android:paddingLeft="60dp"
+               android:paddingRight="60dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@color/colorPrimary"
+               android:textColor="@color/white"
+               android:gravity="center"
+               android:textSize="18sp"
+               android:drawableStart="@drawable/ic_lock"
+               android:drawablePadding="4dp"
+               android:text="Unlock">
+
+           </androidx.appcompat.widget.AppCompatButton>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/refresh"
+        android:layout_margin="16dp"
+        android:background="@drawable/retry"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+    <LinearLayout
+        android:layout_below="@+id/header"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="32dp"
+        android:gravity="bottom">
+        <TextView
+            android:id="@+id/tv_request"
+            android:background="@color/green"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:text="Last request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:background="@color/green_100"
+            android:id="@+id/rv_requests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

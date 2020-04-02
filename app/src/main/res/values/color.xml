@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="road_pulse_red_color">#EF4C37</color>
+        <color name="navigationdrawer_background_color">#0E81AD</color>
+        <color name="content_background_color">#F4F4F4</color>
+        <color name="pageheader_background_color">#ffffff</color>
+        <color name="pageheader_text_color">#000000</color>
+        <color name="pageheader_icon_color">#FFFF20</color>
+        <color name="divider_color">#d3d3d3</color>
+        <color name="button_backcolor">#004c66</color>
+        <color name="button_text">#ffffff</color>
+        <color name="green">#1B5E20</color>
+        <color name="green_300">#228329</color>
+        <color name="green_100">#5907B914</color>
+        <color name="green_400">#196D1F</color>
+        <color name="dark_green">#1B5E20</color>
+        <color name="road_pulse_blue_color">#206296</color>
+        <color name="road_pulse_action_bar_color">#f44336</color>
+        <color name="vts_navigationdrawer_background_color">#FCB827</color>
+        <color name="green_color">#61BC47</color>
+        <color name="red_color">#E03A3E</color>
+        <color name="yellow_color">#FF6F00</color>
+        <color name="yellow_300">#FA9140</color>
+        <color name="yellow_100">#D8FD9D53</color>
+        <color name="yellow_400">#F57C1F</color>
+        <color name="orange_color">#F6821F</color>
+        <color name="purple_color">#963D97</color>
+        <color name="blue_color">#009DDC</color>
+        <color name="red_100">#ffcdd2</color>
+        <color name="red_200">#F7939D</color>
+        <color name="red_300">#D35454</color>
+        <color name="red_400">#E03131</color>
+        <color name="blood_color">#f44336</color>
+        <color name="hospital_color">#963D97</color>
+        <color name="ambulance_color">#DF3C40</color>
+        <color name="white_color">#FFFFFF</color>
+        <color name="gold_color">#E0BC34</color>
+        <color name="silver_color">#72716F</color>
+        <color name="text_color">#206296</color>
+        <color name="map_button_color">#80ffffff</color>
+        <color name="header_background_color">#f44336</color>
+        <color name="hinttext_color">#c7d5e1</color>
+        <color name="hinttext_color_LoginReg">#6B96B9</color>
+        <color name="orange">#FF9900</color>
+
+        <color name="blue">#000099</color>
+        <color name="colorPrimary">#f44336</color><!--#206296-->
+        <color name="colorPrimaryDark">#d32f2f</color><!--#1B5582-->
+        <color name="colorAccent">#206296</color><!--#688FAF-->
+        <color name="backgroundcolour">#FFE9E6E1</color>
+        <color name="background">#dddddd</color>
+
+
+        <color name="background_color">#009688</color>
+        <color name="white">#FFFFFF</color>
+        <color name="black">#000000</color>
+        <color name="white_greyish">#EEEEEE</color>
+        <color name="button_selectorcolor">#9E9E9E</color>
+
+        <color name="blue_50">#bb08529B</color>
+        <color name="grey_50">#bb000000</color>
+        <color name="blue_100">#4600BCD4</color>
+        <color name="blue_300">#90caf9</color>
+        <color name="blue_400">#5AC5F7</color>
+        <color name="gray_100">#FAF8F8</color>
+        <color name="gray">#EEEEEE</color>
+        <color name="gray_darken">#DDDDDD</color>
+        <color name="blue_500">#00BCD4</color>
+        <color name="orange_500">#F44336</color>
+        <color name="yellow_500">#ffb158</color>
+        <color name="colorGray">#4A4A4A</color>
+        <color name="colorPurPle">#6200EA</color>
+
+ </resources>

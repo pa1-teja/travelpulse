@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel_name">Travelpulse</string>
+    <string name="channel_description">Travelpulse notifications</string>
+    <string name="action_url">http://180.92.175.140:8080/webservice/device</string>
+
+    <string name="action_report_url">http://180.92.175.140:8080</string>
+
+    <string name="privacy_policy_url">https://travelpulse.net.in/privacyPolicy.htm</string>
+    <string name="app_troubleshoot_url">https://travelpulse.net.in/config_settings_faq.htm</string>
+    <string name="action_getallservices">/search/providersearch.html</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="underlineRegister"><u>Register</u></string>
+    <string name="underlineSign"><u>Sign In</u></string>
+
+    <string-array name="problems">
+        <item>Select Issue</item>
+        <item>Late Alarm</item>
+        <item>No Network</item>
+        <item>Vehicle Movement Problem</item>
+        <item>Wrong Location</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string name="actionbar_name">Tyre Repair</string>
+    <string name="UserProfile">User Profile</string>
+    <string name="HealthProfile">Health Profile</string>
+    <string name="VehicleProfile">Vehicle Profile</string>
+    <string name="TireRepair">Tyre Repair</string>
+    <string name="vehiclebar_name">Vehicle List</string>
+    <string name="Notification">Notifications</string>
+    <string name="providerListbar_name">Providers</string>
+    <string name="User_Interaction">User Interaction</string>
+
+    <string name="fa_edit">&#xf040;</string>
+    <string name="call">&#xf095;</string>
+    <string name="location">&#xf041;</string>
+    <string name="google_toolbar">&#xf1a0;</string>
+    <string name="Rupee">&#xf156;</string>
+    <string name="Car">&#xf1b9;</string>
+    <string name="CheckBox">&#xf046;</string>
+    <string name="checkbox_unchecked">&#xf096;</string>
+    <string name="checkbox_checked">&#xf046;</string>
+    <string name="fa_black_arrow_right">&#xf054;</string>
+    <string name="fa_user_icon">&#xf007;</string>
+    <string name="fa_arrow_down">&#xf078;</string>
+    <string name="fa_arrow_up">&#xf077;</string>
+    <string name="vehical_checked">&#xf041;</string>
+    <string name="fa_car">&#xf1b9;</string>
+    <string name="right_arrow">&#xf054;</string>
+    <string name="title_activity_vtsset_vehical">Vehicle List</string>
+    <string name="title_activity_favourites_list">FavouritesList</string>
+    <string name="fa_star">&#xf005;</string>
+    <string name="fa_bell">&#xf0a2;</string>
+    <string name="fa_hand_o_right">&#xf0a4;</string>
+    <string name="fa_hand_o_left">&#xf0a5;</string>
+    <string name="fa_check_circle_o">&#xf05d;</string>
+    <string name="fa_info">&#xf129;</string>
+    <string name="fa_close">&#xf00d;</string>
+    <string name="fa_trash">&#xf1f8;</string>
+    <string name="fa_pencil_square_o">&#xf044;</string>
+    <string name="fa_eraser">&#xf12d;</string>
+    <string name="fa_plus">&#xf067;</string>
+    <string name="fa_check_square">&#xf14a;</string>
+    <string name="fa_square_o">&#xf096;</string>
+    <string name="fa_minus_square">&#xf146;</string>
+    <string name="fa_plus_circle">&#xf055;</string>
+    <string name="fa_save">&#xf0c7;</string>
+    <string name="fa_calendar_plus_o">&#xf073;</string>
+    <string name="fa_clock_o">&#xf017;</string>
+    <string name="fa_spinner">&#xf110;</string>
+    <string name="fa_copy">&#xf0c5;</string>
+    <string name="fa_flash">&#xf0e7;</string>
+    <string name="fa_times_circle">&#xf057;</string>
+    <string name="fa_eye">&#xf06e;</string>
+    <string name="fa_autofence">&#xf170;</string>
+    <string name="fa_share">&#xf1e0;</string>
+    <string name="fa_filter">&#xf0b0;</string>
+    <string name="fa_envelope">&#xf003;</string>
+    <string name="fa_mobile">&#xf10b;</string>
+    <string name="fa_address">&#xf015;</string>
+    <string name="fa_bp">&#xf21e;</string>
+    <string name="fa_blood_group">&#xf043;</string>
+    <string name="fa_heart_trbl">&#xf08a;</string>
+    <string name="fa_licence_num">&#xf09d;</string>
+    <string name="fa_sugar">&#xf1b3;</string>
+    <string name="fa_refresh">&#xf021;</string>
+    <string name="fa_map">&#xf279;</string>
+    <string name="wifi_symbol">&#xf1eb;</string>
+    <string name="warning_symbol">&#xf071;</string>
+    <string name="setting">&#xf013;</string>
+    <string name="fa_map_marker">&#xf041;</string>
+    <string name="fa_ellipsis">&#xf142;</string>
+    <string name="desc_list_item_icon">Iten Icon</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_vtsoptions">Product Feature</string>
+    <string name="title_activity_provider_list_location">Providers Location</string>
+    <string name="title_activity_provider_advsearch">Advance Search</string>
+    <string name="title_activity_notificatn_demo">NotificatnDemo</string>
+    <string name="title_activity_vehicle_add_tracker">Add Tracker</string>
+    <string name="title_activity_vehicle_secondary_user">Secondary Users</string>
+    <string name="title_activity_vehicle_secondary_user_view">Secondary User</string>
+    <string name="title_activity_VTSSettingPage">TravelPulse Settings</string>
+    <string name="title_activity_ChangePassword">Change Password</string>
+    <string name="title_activity_ReplayTracking">Vehicle Movement Replay</string>
+    <string name="title_activity_Geofencing">Virtual Boundary</string>
+    <string name="title_activity_Plans">Plans</string>
+    <string name="title_activity_Alerts_Reports">Alert Report</string>
+    <!--
+    paid key
+    <string name="google_map_api_key">AIzaSyBBI8bH3MihHZqWEyMi6HIsphJVqiIyI-A</string>
+-->
+    <string name="google_map_api_key">AIzaSyA_c4-WO6CaIRFbNNJFXdThHr1-lfx-n-o</string>
+    <!--Demo mobiledev project key-->
+    <string name="test_google_api_key_places">AIzaSyCv7AQAzL9BnjLFFdlGs8gW-vilmojzS3o</string>
+    <string name="google_api_key_places">AIzaSyA_c4-WO6CaIRFbNNJFXdThHr1-lfx-n-o</string>
+    <!--paid key
+    <string name="google_api_key_places">AIzaSyBBI8bH3MihHZqWEyMi6HIsphJVqiIyI-A</string>-->
+    <string name="network_error_message">  No Network Connectivity detected.\n Please check your Internet Connection.</string>
+    <!-- <string name="google_map_api_key">AIzaSyCDvkhuEz7T_9BA4OVdvW-6iDp_BVbfptM</string> --> <!--Buy key-->
+    <string name="unknown_error_message">Oops!!! Something went wrong. Please try again later</string>
+
+
+    <string name="network_error_message_database">No Network Connectivity detected. Please check your internet connection.Database updation failed</string>
+    <string name="title_activity_payment_gateway_screen">PaymentGatewayScreenActivity</string>
+    <string name="version_number">Version :1.1</string>
+    <string name="secondary_user_toast">You are a secondary user for this vehicle\n\tYou can only track the vehicle but will not receive alerts.
+</string>
+    <string name="secondary_user_menuOption">Track your own vehicle to avail this feature.</string>
+    <string name="nonVts_menu_toast">Upgrade your vehicle with a tracker to avail this feature.</string>
+    <string name="refresh_network_error_message">No Network Connectivity detected</string>
+    <string name="refresh_notificatio_error_message">You have no alerts</string>
+    <string name="access_code">Access Code</string>
+    <string name="splash_network_error">No Network Connectivity detected.</string>
+    <string name="server_conn_error">Could not connect to the server.Please try again.</string>
+    <string name="pay_button">Pay</string>
+    <string name="merchant_id">Merchant Id</string>
+    <!--<string name="app_name">CCAvenue Mobile</string>-->
+    <string name="currency">Currency</string>
+    <string name="amount">Amount</string>
+    <string name="redirect_url">Redirect Url</string>
+    <string name="cancel_url">Cancel Url</string>
+    <string name="rsa_url">RSA Key Url</string>
+    <string name="title_activity_pgsign_up">PGSignUpActivity</string>
+    <string name="title_activity_alert_report">Alert Report</string>
+    <string name="about_us_text">TravelPulse is India’s most advanced V3S (Vehicle Safety, Security and Savings) System bundled with a   \n 24 x 7 Roadside Assistance service which assures Vehicle Owners total peace of mind by giving them the power to remotely track, monitor and control their Vehicle, wherever it is, from their Mobile Phone or Computer.\n\n
+It is a Vehicle Virtual Bodyguard when it comes to the Safety of the Vehicle, Security of the people in it, and Savings on Fuel and Maintenance Costs.\n\n
+
+        <b>Head Office Address: </b>\n\n
+       TravelPulse Venture Private Limited\n
+307, 3rd Floor, Jaswanti Landmark, Mehra Compound, L.B.S. Marg, Vikhroli (W), Mumbai - 400079.\n
+Customer Support: 02242931002..
+
+ </string>
+    <string name="update_msg_Nmandate">An update is available for TravelPulse.\nWould you like to Update? </string>
+    <!--<string name="about_us_text">Incepted in 2015 with the sole intention of assuring car owners complete peace of mind for anything and everything related to their car travel, RoadPulse is a smart device for smart car owners. Harnessing the massive potential of IoT (Internet Of Things) and pinpoint accuracy of the latest GPS technology, RoadPulse is the most advanced Vehicle Tracking and Monitoring System currently available in India. \n\n RoadPulse is a product of Book On Spot Travel Solutions Pvt. Ltd., a Travel Solutions Startup aimed at making the travel experience of users easier.</string>-->
+    <string name="update_msg_Mandate">An update is available for TravelPulse.\nPlease update to continue.</string>
+    <string name="copyright"><u><b><i>Copyright © 2019 www.travepulse.net.in</i></b></u></string>
+    <string name="polygon_intersect_message">Drawn polygon is intersecting with other polygon/s. Do you want to modify the polygon or create new polygon ?</string>
+    <string name="autopolygon_intersect_message">Drawn polygon is intersecting with other polygon/s. Create a new polygon</string>
+    <string name="readAllAlerts">Mark all notifications as read?</string>
+    <string name="last_loc_not_found">Vehicle last location not found</string>
+    <string name="package_name">com.trimax.vts.mobile</string>224
+    <string name="infocirclegeofence">please Long Click on Map To Draw Circle GeoFence.\nYou can move GeoFence by Clicking on Center Icon Of Circle.
+      \nYou Can Resize GeoFence By Clicking on Side Icon Of Circle.</string>
+    <string name="id">ID</string>
+    <!--  <string name="click_here_for_ignition"> <b><i>Click here for Ac & Ignition status</i></b></string>-->
+
+    <string name="first_name">First_Name</string>
+
+    <!--<<<<<Shared Values >>>>>>-->
+    <string name="last_name">last_name</string>
+    <string name="emailAddress">email</string>
+    <string name="mobile_number">mobile_number</string>
+    <string name="user_type_id">user_type_id</string>
+    <string name="status">status</string>
+    <string name="coustmor_id">coustmor_id</string>
+    <string name="networkError">Please Check Network</string>
+    <string name="title_activity_dash_board">DashBoardActivity</string>
+    <string name="frament_settings">Copyright \u00A9 2018-2019 TravelPulse All rights reserved</string>
+    <string name="title_activity_maps_activit_new">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_drivers">Drivers</string>
+    <string name="titile_notification">Notification</string>
+    <string name="titile_fleetuser">Fleet User</string>
+    <string name="titile_drives">Drivers</string>
+    <string name="login">Login</string>
+    <string name="email">Email/Mobile</string>
+
+    <string name="forget_password">Forget Password</string>
+    <string name="password">Password</string>
+    <string name="email_error_message">Enter valid email</string>
+    <string name="password_error_message">Password length must be 8</string>
+    <string name="title_vehicalGroup">Vehical Group</string>
+    <string name="passowrd">Password</string>
+
+
+    <!--<<<Activity Name >/Activity>-->
+    <string name="show_pwd">Show Password</string>
+
+
+    <string name="hide_pwd">Hide Password</string>
+
+    <string name="forgot">Forgot password?</string>
+    <string name="closebutton">Close Button for Activity</string>
+    <string name="newUser">Not a Member yet? Sign Up here.</string>
+    <string name="fullName">Full Name</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="terms_conditions">By clicking SignUp you agree all the Terms and Conditions.</string>
+
+    <string name="signUp">SIGN UP</string>
+    <string name="already_user">Already have Account? Login here.</string>
+    <string name="registered_emailid">Please enter your Registered Email Id below:</string>
+    <string name="submit">Submit</string>
+    <string name="back">BACK</string>
+    <string name="vasmsg">Your Request has been placed Succesfully. We will get back to you shortly</string>
+    <string name="editdriver">Edit Driver</string>
+    <string name="vehicle">Vehicles</string>
+
+    <string name="Adddriver">Add Driver</string>
+    <string name="editriver">Edit Vehicle Group</string>
+    <string name="editsubuser">Edit Fleet Sub User</string>
+    <string name="addsubuser">Add Fleet Sub User</string>
+    <string name="editvehiclegroup">Edit Vehicle Group</string>
+    <string name="addvehiclegroup">Add Vehicle Group</string>
+    <string name="selectVehicle">Please Select Vehicle</string>
+    <string name="notificationprefernc">Note : Please enable Notification for activating Alarm Feature.</string>
+    <string name="perform_action_with">Select only pdf/image File</string>
+    <string name="inputvalidation">qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM1234567890!@#$%^&amp;* ()_-=+|\}{[],.? </string>
+    <string name="note_for_file_upload">File Supported Format : .JPG,.PNG,.PDF \nFile size limit : 3 MB</string>
+    <string name="inputvalidationname">qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM</string>
+    <string name="inputvalidationlicense">qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM1234567890</string>
+    <string name="title_activity_near_by_places">Near By Places</string>
+    <string name="explore">Explore</string>
+    <string name="action_map">View on map</string>
+    <string name="action_place_list">Places list</string>
+    <string name="option">Select option</string>
+    <string name="digits">0123456789</string>
+    <string name="pattern">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz@_.-</string>
+    <string name="engine_on">Engine On</string>
+    <string name="engine_off">Engine Off</string>
+    <string name="engine_off_note">Disclaimer : Do not lock any moving vehicle </string>
+    <string name="engine_off_note1">Please wait till it comes to a stop. Check if device location data is less than five minute old. Engine locking on a running vehicle can cause damage to vehicle and surroundings.</string>
+    <string name="vehicle_status">Current Status   :   Parked,     15 minutes ago</string>
+    <string name="vehicle_address">Location : Nilkant Corporate, Kirol Road, Vidyavihar(W)</string>
+    <string name="select_place">Select</string>
+    <string name="see_all">See all</string>
+    <string name="generate_tpin">Generate T-PIN</string>
+    <string name="tpin">T-PIN</string>
+    <string name="zero">0</string>
+    <string name="cnfm_tpin">Confirm T-PIN</string>
+    <string name="generate">Generate</string>
+    <string name="place_autocomplete_search_hint">Search places</string>
+    <string name="android_os">Android OS</string>
+    <string name="device_models">Devices</string>
+    <string name="third_party_app">3rd party app</string>
+    <string name="go_to_settings">Go to setting</string>
+    <string name="app_auto_start">Allow application run in background. It may restart Travelpulse app after every 20 minutes.</string>
+    <string name="allow_background">Allow Background Run</string>
+    <string name="verification_code">OTP</string>
+    <string name="get_code">Send OTP </string>
+    <string name="auto_verification">Automatically verify OTP</string>
+    <string name="add_new_user">Add New User</string>
+    <string name="save">Save</string>
+    <string name="all">  All</string>
+    <string name="moving">Moving</string>
+    <string name="idle">  Idle</string>
+    <string name="stop">Stop</string>
+    <string name="problem">Issue : </string>
+    <string name="mobile_model_no">Mobile model</string>
+    <string name="description">Issue description</string>
+    <string name="attach_file">Attach Image</string>
+    <string name="issue_from">Issue from</string>
+    <string name="vehicle_no">Vehicle No</string>
+    <string name="comment">Comment</string>
+    <string name="close_issue">Close Issue</string>
+    <string name="reopen">Reopen Issue</string>
+    <string-array name="nav_drawer_items">
+        <item>User Profile</item>
+        <!--<item>Health Profile</item>-->
+        <item>Vehicle Profile</item>
+        <item>Change Password</item>
+        <item>Logout</item>
+        <item>About Us</item>
+        <item>Configuration Settings &amp; FAQS</item>
+
+        <!-- <item>Favourites</item> -->
+    </string-array>
+
+    <string-array name="vehicle_list">
+        <item>VTS BT 5841</item>
+        <item>VTS BT 5842</item>
+        <item>VTS BT 5843</item>
+        <item>VTS BT 5844</item>
+        <item>VTS BT 5845</item>
+        <item>VTS BT 5846</item>
+        <item>VTS BT 5847</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="otp_hint_header">OTP for generation TPIN sent to your registered mobile number. Please check!!</string>
+    <string name="vehicleLock">Vehicle Lock</string>
+
+</resources>

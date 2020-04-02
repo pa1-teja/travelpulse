@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="70dp">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/travelpulsebg" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Demo"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:visibility="gone"
+                android:textColor="@color/road_pulse_blue_color"
+                />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ProgressBar
+                android:id="@+id/progressbar_login"
+                android:theme="@style/CircularProgress"
+                style="@style/Widget.AppCompat.ProgressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="5dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilEmailLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#949292"
+            app:hintTextAppearance="@style/hintText">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/eTUserName"
+                android:drawableLeft="@drawable/usernameleftdrawable"
+                android:drawablePadding="10dp"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                style="@style/edittext_comman_profiles"
+                android:maxLength="50"
+                android:digits="@string/pattern"
+                android:textColorHint="#000000"
+                android:textCursorDrawable="@drawable/custom_edit_text_cursor"
+                android:textSize="18dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+<!--        android:theme="@style/TextLabel"-->
+        <View
+            android:id="@+id/username_view"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:visibility="gone"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/gray_color" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#949292"
+            android:layout_marginTop="15dp"
+            app:passwordToggleEnabled="true"
+            app:hintTextAppearance="@style/hintText"
+            app:passwordToggleTint="#ff0203">
+
+            <EditText
+                android:id="@+id/eTPassword"
+                android:textColorHint="#949292"
+                style="@style/edittext_comman_profiles"
+                android:drawableLeft="@drawable/passworddrawableleft"
+                android:drawableStart="@drawable/passworddrawableleft"
+                android:drawablePadding="10dp"
+                android:hint="@string/password"
+                android:maxLength="50"
+                android:inputType="textPassword"
+                android:textCursorDrawable="@drawable/custom_edit_text_cursor"
+                android:textSize="18dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <View
+            android:id="@+id/password_view"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:visibility="gone"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/gray_color" />
+
+        <TextView
+            android:id="@+id/tvforget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="15dp"
+            android:text="Forgot Password ?"
+            android:textColor="#ff0203"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/bLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shape_new"
+            android:text="@string/login"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+
+    </LinearLayout>

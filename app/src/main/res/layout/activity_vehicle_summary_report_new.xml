@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+
+    <LinearLayout
+        android:id="@+id/vtsmapllReplay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/viewReportBtn"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:weightSum="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/FromDateLinearLayout"
+                android:paddingTop="5dp"
+                android:paddingLeft="7dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/dateLayID"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textColorHint="#688FAF">
+
+                        <EditText
+                            android:id="@+id/txtFromValue"
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:textSize="14sp"
+                            android:hint="From Date"
+                            android:focusable="false"
+                            android:textColorHint="#688FAF"
+                            />
+
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <TextView
+                        android:id="@+id/xfrmdate"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:textSize="14dp"
+                        android:text="@string/fa_times_circle"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ToDateLinearLayout"
+                android:paddingTop="5dp"
+                android:paddingLeft="7dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/todateLayID"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textColorHint="#688FAF"
+
+                        >
+                        <EditText
+                            android:id="@+id/txtToValue"
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:textSize="14sp"
+                            android:hint="To Date"
+                            android:focusable="false"
+                            android:textColorHint="#688FAF"
+                            />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <TextView
+                        android:id="@+id/xtodate"
+                        android:layout_gravity="center"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:textSize="14dp"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/fa_times_circle"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/vehiclegroupLinearLayout"
+                android:paddingTop="5dp"
+                android:paddingLeft="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/vehiclegroupID"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textColorHint="#688FAF">
+
+                        <EditText
+                            android:id="@+id/vehiclegroupValue"
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:textSize="14sp"
+                            android:hint="Select Vehicle Group"
+                            android:focusable="false"
+                            android:textColorHint="#688FAF"
+                            />
+
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <TextView
+                        android:id="@+id/xvehiclegroup"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:visibility="gone"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:textSize="14dp"
+                        android:text="@string/fa_times_circle"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/vehicleLinearLayout"
+                android:paddingTop="5dp"
+                android:paddingLeft="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/vehicleID"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textColorHint="#688FAF">
+
+                        <EditText
+                            android:id="@+id/vehicleValue"
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:textSize="14sp"
+                            android:hint="Select Vehicle "
+                            android:focusable="false"
+                            android:textColorHint="#688FAF"
+                            />
+
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <TextView
+                        android:id="@+id/xvehicl"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:visibility="gone"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:textSize="14dp"
+                        android:text="@string/fa_times_circle"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/vehiclealertLinearLayout"
+                android:paddingTop="5dp"
+                android:paddingLeft="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/alertID"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textColorHint="#688FAF">
+
+                        <EditText
+                            android:id="@+id/alertValue"
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:textSize="14sp"
+                            android:hint="Select Alert"
+                            android:focusable="false"
+                            android:textColorHint="#688FAF"
+                            />
+
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <TextView
+                        android:id="@+id/xalert"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:visibility="gone"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:textSize="14dp"
+                        android:text="@string/fa_times_circle"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <ProgressBar
+        android:id="@+id/progressbar_login"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:theme="@style/CircularProgress"
+        android:visibility="gone"
+        />
+
+
+    <Button
+        android:id="@+id/viewReportBtn"
+        style="@style/button_comman1"
+        android:layout_alignParentBottom="true"
+        android:text="@string/submit"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+</RelativeLayout>

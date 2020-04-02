@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_above="@+id/btn_container_layout">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.45">
+
+            <ListView
+                android:id="@+id/main_filterCategory_lv"
+                android:layout_width="match_parent"
+                android:textColor="#333333"
+                android:layout_height="wrap_content"
+                android:background="@color/content_background_color"
+                android:choiceMode="singleChoice"
+                android:dividerHeight="1dp"
+                android:divider="@color/divider_color"
+                android:scrollbars="none" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.55">
+            <CheckBox
+                android:id="@+id/selectAll_cb"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Select All Vehicle"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:textSize="13.6sp"
+                android:visibility="visible"
+                android:layout_alignParentRight="true"
+                android:textAppearance="?android:textAppearanceLarge"
+                />
+            <CheckBox
+                android:id="@+id/selectAlltype_cb"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Select All Type"
+                android:paddingTop="10dp"
+                android:paddingBottom="7dp"
+                android:textSize="13.6sp"
+                android:visibility="visible"
+                android:textAppearance="?android:textAppearanceLarge"
+                />
+            <View
+                android:id="@+id/divider_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="gone"
+                android:background="@color/divider_color"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/sub_filterCategory_lv"
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:layout_weight="65"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/ll1" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="2"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:id="@+id/btn_container_layout">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Clear All"
+                android:background="@color/divider_color"
+                android:id="@+id/clearBtn"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Apply Filter"
+                android:id="@+id/applyBtn"
+                android:background="@color/road_pulse_red_color"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

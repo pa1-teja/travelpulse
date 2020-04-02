@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.trimax.vts.view">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        android:required="true" /> <!-- Required if your app targets Android 10 (API level 29) or higher -->
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        android:required="false" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" /> -->
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" /> <!-- <uses-permission android:name="android.permission.CAMERA" /> -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        android:required="false" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- android:icon="@drawable/arrow_back" -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- <uses-permission android:name="android.permission.GET_ACCOUNTS" /> -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:required="true" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name="com.trimax.vts.ApplicationM"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:label="TravelPulse"
+        android:largeHeap="true"
+        android:multiArch="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/nav_bar_theme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:icon,android:label">
+        <activity android:name="com.trimax.vts.vehicle_lock.VehicleLockActivity">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <!-- Here map android starter -->
+        <meta-data
+            android:name="com.here.android.maps.appid"
+            android:value="vM5rEKdEPUxeR5HX23ji" />
+        <meta-data
+            android:name="com.here.android.maps.apptoken"
+            android:value="_bAhJAeJNvrtgA8KGPBE2A" /> <!-- Here map android lite -->
+        <!--
+<meta-data android:name="com.here.sdk.access_key_id" android:value="DTgP1uXOLM_AefnsSiO75Q" />
+        <meta-data android:name="com.here.sdk.access_key_secret" android:value="2IN_J3r76g2ZbWEdzXRl0EyK3jMsh2EAmkoLeZAYIkXWeegHdeg7v5ZVfIHYr2TDtl5ftVMgSWVHI-wIRPM8fg" />
+        -->
+        <activity
+            android:name=".about.SplashscreenActivity"
+            android:hardwareAccelerated="false"
+            android:label="TravelPulse"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".complaints.CommentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialActionBar" />
+        <activity
+            android:name=".reports.ReportAlertActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".reports.ReportsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialActionBar" />
+        <activity
+            android:name=".reports.ReportDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialActionBar" />
+        <activity android:name=".faq.FaqActivity" />
+        <activity
+            android:name=".complaints.AddQueryActivity"
+            android:theme="@style/MaterialActionBar" />
+        <activity
+            android:name=".complaints.CustomerQueriesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialActionBar" />
+        <activity
+            android:name=".users.AddUserActivity"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name=".users.UserListActivity"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name=".notifications.NotificationSettingActivity"
+            android:theme="@style/MaterialActionBar" />
+        <activity android:name=".lock.RemoteLockHistoryActivity" />
+        <activity
+            android:name=".maps.AutoCompleteAddressActivity"
+            android:theme="@style/MaterialActionBar" />
+        <activity
+            android:name=".lock.RemoteLockActivity"
+            android:theme="@style/MaterialActionBar" />
+        <activity
+            android:name=".nearby.NearByPlacesActivity"
+            android:label="@string/title_activity_near_by_places"
+            android:theme="@style/EditTextAppTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/EditTextAppThemeLoginReg"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name=".provider.ProviderListActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".dashboard.CustomerDashboardActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Home"
+            android:screenOrientation="portrait"
+            android:theme="@style/nav_bar_theme_no_actionbar"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".maps.RealTimeTrackingActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Real Time Vehicle Tracking"
+            android:screenOrientation="portrait"
+            android:theme="@style/vts_nav_bar_theme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".login.UserProfileActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/UserProfile"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".vehicle.VTSSetVehicalActivity"
+            android:label="@string/title_activity_vtsset_vehical"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".login.ForgetPasswordActivityNew"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".provider.ProviderListLocationActivity"
+            android:label="@string/title_activity_provider_list_location"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".provider.ProviderADVSearchActivity"
+            android:label="@string/title_activity_provider_advsearch"
+            android:screenOrientation="portrait"
+            android:theme="@style/EditTextAppThemeTransparent" />
+        <activity
+            android:name=".notifications.NotificationActivity"
+            android:label="@string/Notification"
+            android:screenOrientation="portrait"
+            android:theme="@style/notificationActivityTheme" />
+        <activity
+            android:name=".login.ChangePasswordActivity"
+            android:label="@string/title_activity_ChangePassword"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialActionBar" />
+        <activity
+            android:name=".maps.ReplayTrackingActivity"
+            android:label="@string/title_activity_ReplayTracking"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".reports.Activity.AlertReportActivity"
+            android:label="@string/title_activity_Alerts_Reports"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".about.AboutUS" />
+        <activity
+            android:name=".master.activity.Activity_Drivers"
+            android:label="@string/titile_drives"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name=".master.activity.Activity_FleetSubUsers"
+            android:label="Fleet Sub User"
+            android:screenOrientation="portrait"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name=".dashboard.FleetUserDashBoard"
+            android:theme="@style/nav_bar_theme_no_actionbar"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".vehicle.VehicleStatusActivity"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name=".notifications.FilterDynamicNew"
+            android:label="Filter"
+            android:theme="@style/nav_bar_theme2" />
+        <activity
+            android:name=".reports.Activity.VehicleIdleReportActivity"
+            android:label="Vehicle Idle Summary Report"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".reports.Activity.VehicleStopReportActivity"
+            android:label="Vehicle Stop Summary Report"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".reports.Activity.VehicleRunReportActivity"
+            android:label="Vehicle Run Summary Report"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".reports.Activity.CurrentVehicleStatusReportActivityNew"
+            android:label="Current Vehicle Status Report"
+            android:screenOrientation="portrait"
+            android:theme="@style/notificationActivityTheme" />
+        <activity
+            android:name=".reports.Activity.AlertSummaryReportActivityNew"
+            android:label="Alert Summary Report"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".reports.Activity.VehicleSummaryReportActivityNew"
+            android:label="Vehicle Summary Report"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".master.activity.Activity_Vehicle_Master"
+            android:label="Vehicles"
+            android:screenOrientation="portrait"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name=".master.activity.Activity_Vehical_Group"
+            android:label="Vehicles Group"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".master.activity.AddDriverActivity"
+            android:label="Drivers"
+            android:screenOrientation="portrait"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name=".master.activity.UpdateVehicleProfileActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name=".master.activity.AddFleetSubUserActivity"
+            android:label="Fleet Sub User"
+            android:screenOrientation="portrait"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name=".master.activity.AddVehicleGroupActivity"
+            android:label="Vehicle Group"
+            android:screenOrientation="portrait"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name=".notifications.SetNotificationPreferenceActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name=".maps.GeoFencingNew"
+            android:label="Virtual Boundary"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".notifications.ActivityAlertParkedOut"
+            android:excludeFromRecents="true"
+            android:screenOrientation="sensorPortrait"
+            android:showOnLockScreen="true"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name=".document.Activity_Document"
+            android:theme="@style/nav_bar_theme.NoActionBar" /> <!-- Manage Masters -->
+        <activity
+            android:name=".document.Activity_UplaodDocument"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name=".vehicle.ActivityTravelPerformance"
+            android:theme="@style/performace_theme" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_map_api_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".SearchResultActivity" />
+        <meta-data
+            android:name="com.onesignal.NotificationOpened.DEFAULT"
+            android:value="DISABLE" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="ce9276ef3772039f81471c74437c8b9ba6a32c07" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <receiver
+            android:name="com.trimax.vts.receiver.ScreenOnOffReceiver"
+            android:enabled="true"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.trimax.vts.receiver.AlarmReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <!-- For HTC devices -->
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.trimax.vts.services.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.trimax.vts.services.SendNotificationService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.trimax.vts.services.StartAppService"
+            android:enabled="true" />
+        <service
+            android:name="com.trimax.vts.services.MyNotificationExtenderService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE">
+            <intent-filter>
+                <action android:name="com.onesignal.NotificationExtender" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.trimax.vts.services.AppLocationService"
+            android:enabled="true" />
+        <service
+            android:name="com.trimax.vts.services.BackgroundNotificationService"
+            android:enabled="true" />
+        <service
+            android:name="com.trimax.vts.services.ScreenOnOffBackgroundService"
+            android:enabled="true" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required="true" />
+    </application>
+
+</manifest>

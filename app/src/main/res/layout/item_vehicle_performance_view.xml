@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_height="68dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:text="Hasrh Break"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_below="@+id/tv_title"
+        android:padding="5dp"
+        android:text="8"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_below="@+id/tv_title"
+        android:layout_toEndOf="@+id/tv_score"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progressDrawable="@drawable/bg_progress_teal"
+        android:progress="1"
+        android:layout_margin="5dp"
+        android:max="40"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+</RelativeLayout>
