@@ -17,7 +17,7 @@ public class LoginRepository {
 
 
     public Call<LoginResponse> doLogin(String username, final String password, final String status){
-        return ApiClient.getApiClient().fnLogin(username,password,status);
+        return ApiClient.getApiClient().fnLogin("*/*",username,password,status);
     }
 
     public Call<ResponseBody> forgotPassword(){

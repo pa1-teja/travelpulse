@@ -99,6 +99,7 @@ public interface RetrofitInterface {
     @POST(ApiConstant.UrlLogin)
     Call<LoginResponse> fnLogin(/*@Header("Authorization") String strAuthorizationKey,
                                @Header("X-API-KEY") String strApiKey,*/
+                               @Header("accept") String type,
                                @Field("emailaddress") String strEmail,
                                @Field("password") String strPassword,
                                @Field("status") String status);

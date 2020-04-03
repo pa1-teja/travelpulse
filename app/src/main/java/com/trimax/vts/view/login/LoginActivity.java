@@ -85,6 +85,8 @@ public class LoginActivity extends AppCompatActivity  {
         emailEdittext =  findViewById(R.id.eTUserName);
         passwordEdittext = findViewById(R.id.eTPassword);
 
+        emailEdittext.setText("test_fleet@roadpulse.net");
+        passwordEdittext.setText("trimax@123");
         emailEdittext.setText((infoPref.getString("username", PrefEnum.Login)));
         passwordEdittext.setText((infoPref.getString("password", PrefEnum.Login)));
         if (!infoPref.isKeyContains("record_id",PrefEnum.OneSignal)){
@@ -181,6 +183,9 @@ public class LoginActivity extends AppCompatActivity  {
                     if(dialog!=null){
                         dialog.dismiss();
                     }
+
+                    System.out.println("===D :" + response.raw());
+
                     if (response.isSuccessful()){
                         if (response.body()!=null) {
                             if (response.body().getStatus().equalsIgnoreCase("success")) {
@@ -232,9 +237,9 @@ public class LoginActivity extends AppCompatActivity  {
                 @Override
                 public void onFailure(Call<LoginResponse> call, Throwable t) {
                     Log.d(TAG, "onFailure: "+t.getMessage());
-                    if(dialog!=null){
+
+                    if ((dialog != null) && dialog.isShowing())
                         dialog.dismiss();
-                    }
                 }
             });
     }

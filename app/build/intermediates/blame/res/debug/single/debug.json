@@ -1,0 +1,1774 @@
+[
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_garage_red.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/garage_red.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/anim_left_in_anim.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/anim/left_in_anim.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_car_background_drawable.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/car_background_drawable.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_infowindowlayoutnew.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/infowindowlayoutnew.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_bike_topview_orange.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/bike_topview_orange.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_fleet_sub_user.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/fleet_sub_user.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_row_driver.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/row_driver.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_vehicle.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/vehicle.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_menu_vehicle_towing.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/menu_vehicle_towing.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_car_move.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_car_move.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_purplesmall.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/purplesmall.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_bg_shape_white.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/bg_shape_white.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_report_details.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_report_details.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/anim_slide_stay.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/anim/slide_stay.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_car_icon_green.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_car_icon_green.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_map.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_map.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_filter.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/filter.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_notification_icon.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/notification_icon.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_arrow_down.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xxhdpi/arrow_down.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_notifications.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_notifications.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_health.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/health.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-mdpi_ambulance.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-mdpi/ambulance.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_travel_perfomance.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/travel_perfomance.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_tyre.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xhdpi/tyre.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_menu_product_feature.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xhdpi/menu_product_feature.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_pinksmall.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/pinksmall.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_stopped_vehicle.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/stopped_vehicle.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_delete_icon.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/delete_icon.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_dashbaordstatuwhite.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/dashbaordstatuwhite.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_car.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_car.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_customer_queries.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_customer_queries.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-ldpi_menu_fuel_delivery.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-ldpi/menu_fuel_delivery.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_menu_fuel_delivery_red.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/menu_fuel_delivery_red.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_skybluesmall.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/skybluesmall.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_minimize.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/minimize.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_dashbaordstatus.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/dashbaordstatus.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_repair.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xxhdpi/repair.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_call.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xxhdpi/call.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_second_box.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/second_box.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_realtime_tracking.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_realtime_tracking.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_fleetuser.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/fleetuser.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_current_vehicle_status_report_new.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_current_vehicle_status_report_new.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_retry.webp.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/retry.webp"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_police_station_red.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/police_station_red.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/raw_towing_alarm.mp3.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/raw/towing_alarm.mp3"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_logout.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/logout.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_row_item_upload_document.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/row_item_upload_document.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-ldpi_menu_vehicle_towing.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-ldpi/menu_vehicle_towing.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_item_complaint_view.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/item_complaint_view.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_circular_red_shape_background.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/circular_red_shape_background.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_change_password_layout.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/change_password_layout.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-ldpi_repair.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-ldpi/repair.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_max_speed.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_max_speed.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_menu_fuel_delivery.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xxhdpi/menu_fuel_delivery.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-mdpi_tyre.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-mdpi/tyre.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_menu_batteryjump.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/menu_batteryjump.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_parking_out.webp.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/parking_out.webp"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_button_login.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/button_login.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_attach_file_black_24dp.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_attach_file_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_bghomegridview.webp.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xhdpi/bghomegridview.webp"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_bike_topview_red.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/bike_topview_red.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_bg_progress_neon_green.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/bg_progress_neon_green.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_menu_value_added_red.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/menu_value_added_red.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-mdpi_menu_batteryjump.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-mdpi/menu_batteryjump.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_garage.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/garage.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_button_boarder.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/button_boarder.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_menu_vehicle_towing.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xhdpi/menu_vehicle_towing.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_info_window.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/info_window.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_item_comment_view.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/item_comment_view.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_geofencingnew.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/geofencingnew.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_edittextd.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/edittextd.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_mode_edit_black_24dp.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_mode_edit_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-ldpi_menu_alerts.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-ldpi/menu_alerts.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_bg_red_gradient.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/bg_red_gradient.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/anim_left_anim.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/anim/left_anim.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_vehicle_group.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/vehicle_group.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_upload_document.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_upload_document.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-ldpi_menu_flat_tyre.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-ldpi/menu_flat_tyre.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_add_black.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_add_black.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_local_hospital.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_local_hospital.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_custom_row.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/custom_row.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_call.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xhdpi/call.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_notification_row_layout.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/notification_row_layout.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_vts_spinner_dropdown.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/vts_spinner_dropdown.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_passworddrawableleft.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/passworddrawableleft.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_local_gas_station_red.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_local_gas_station_red.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_add_user.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_add_user.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_tamper.webp.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/tamper.webp"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_insert_drive_file_black_24dp.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_insert_drive_file_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/anim_left_out_anim.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/anim/left_out_anim.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_vtsset_vehical.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_vtsset_vehical.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_photo_camera_black_24dp.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_photo_camera_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/anim_rotation.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/anim/rotation.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_alert.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_alert.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_notification_list_item.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/notification_list_item.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_cancel.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/cancel.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_tyre.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xxhdpi/tyre.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_circular_shape_background.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/circular_shape_background.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_delgeo.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/delgeo.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_shape_circle_orange.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/shape_circle_orange.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_picture_as_pdf_black_24dp.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_picture_as_pdf_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_usernameleftdrawable.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/usernameleftdrawable.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_custom_info_contents.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/custom_info_contents.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_manage_master.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/manage_master.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_place_orange.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_place_orange.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-ldpi_menu_replay.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-ldpi/menu_replay.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_edittext_boarder.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/edittext_boarder.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-mdpi_call.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-mdpi/call.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/anim_fade_in.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/anim/fade_in.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_menu_realtracking.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xhdpi/menu_realtracking.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_menu_replay.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xhdpi/menu_replay.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_menu_fuel_delivery.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xhdpi/menu_fuel_delivery.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_menu_realtracking.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xxhdpi/menu_realtracking.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_menu_fuel_delivery.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/menu_fuel_delivery.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_add_fleet_subuser.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_add_fleet_subuser.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_lock_open.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_lock_open.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_custom_dailog_bg.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/custom_dailog_bg.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_date_picker_dialog.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/date_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_splash_layout.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/splash_layout.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_add_white.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_add_white.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_chats.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_chats.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_photo_library_black_24dp.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_photo_library_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_car_idle.webp.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/car_idle.webp"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_lock_tpin_dialog.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/lock_tpin_dialog.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_new_alert_icon.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/new_alert_icon.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_list_item_bg_pressed.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/list_item_bg_pressed.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_call.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/call.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_auto_complete_address.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_auto_complete_address.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_tpicon.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/tpicon.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_marker_orange.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/marker_orange.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_vehicle_master.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_vehicle_master.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_alert_report.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/alert_report.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_search_icon.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/search_icon.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_search_white.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_search_white.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_provider_advsearch.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_provider_advsearch.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_forget_password.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_forget_password.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-mdpi_menu_vehicle_towing.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-mdpi/menu_vehicle_towing.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_travel_performance.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_travel_performance.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_row_vehicle_status.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/row_vehicle_status.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_filter_dynamic.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_filter_dynamic.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/xml_searchable.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/xml/searchable.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-ldpi_menu_product_feature.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-ldpi/menu_product_feature.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-mdpi_minimize.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-mdpi/minimize.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_item_concession_type.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/item_concession_type.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_local_gas_station.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_local_gas_station.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_menu_batteryjump.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xhdpi/menu_batteryjump.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_delete.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/delete.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_marker_yellow.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/marker_yellow.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_fragment_vehicle_lock.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/fragment_vehicle_lock.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_place_green.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_place_green.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_menu_virtualboundry.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xxhdpi/menu_virtualboundry.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_bg_orange_gradient.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/bg_orange_gradient.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_vehicle_list_item.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/vehicle_list_item.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_item_places_view.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/item_places_view.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_notification_icon.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/notification_icon.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-mdpi_bghomegridview.webp.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-mdpi/bghomegridview.webp"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_menu_flat_tyre.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/menu_flat_tyre.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_list_selector.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/list_selector.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_setting.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/setting.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-ldpi_ambulance.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-ldpi/ambulance.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_resizecir.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/resizecir.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/menu_activity_call_action.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/menu/activity_call_action.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_item_notification_pref.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/item_notification_pref.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_arrow_up.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_arrow_up.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-mdpi_menu_flat_tyre.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-mdpi/menu_flat_tyre.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_arrow_right.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_arrow_right.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_bg_green_gradient.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/bg_green_gradient.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/anim_slide_in.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/anim/slide_in.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_volume_off_black_24dp.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_volume_off_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_circuler_shape_for_profile_pic.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/circuler_shape_for_profile_pic.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_cancel_white_24dp.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_cancel_white_24dp.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/anim_right_out_anim.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/anim/right_out_anim.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_provider_list_layout.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/provider_list_layout.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_item_vehicle_timeline.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/item_vehicle_timeline.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_dashbaordstatuwhitet.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/dashbaordstatuwhitet.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_home_list_gradient.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/home_list_gradient.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_list_red.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_list_red.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_menu_vehicle_towing_red.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/menu_vehicle_towing_red.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_faq.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_faq.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_item_last_request_view.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/item_last_request_view.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_btn_txt_selector.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/btn_txt_selector.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_tyre.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/tyre.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-ldpi_notification_icon.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-ldpi/notification_icon.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_frmagment_drivers.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/frmagment_drivers.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-mdpi_menu_fuel_delivery.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-mdpi/menu_fuel_delivery.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_update_vehicle_profile.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_update_vehicle_profile.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_menu_replay.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xxhdpi/menu_replay.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_notifications_none_black.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_notifications_none_black.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_vehicle_summary_report_new.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_vehicle_summary_report_new.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_partial_custom_dialog_report.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/partial_custom_dialog_report.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_marker_skyblue.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/marker_skyblue.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_about_us_webview.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/about_us_webview.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/menu_vehicle_status.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/menu/vehicle_status.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_add_vehicle_group.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_add_vehicle_group.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_moving_vehicle.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/moving_vehicle.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_file_upload_black_24dp.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_file_upload_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_item_autosuggest_place_view.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/item_autosuggest_place_view.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_about_us.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/about_us.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_hospital.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/hospital.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/anim_top_out.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/anim/top_out.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-mdpi_notification_icon.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-mdpi/notification_icon.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_bg_progress_teal.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/bg_progress_teal.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_menu_virtualboundry.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/menu_virtualboundry.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_content_copy.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_content_copy.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_buttonback.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/buttonback.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_set_notification_preference.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_set_notification_preference.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_mybutton.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/mybutton.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_icon_journey.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/icon_journey.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_repair.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/repair.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_menu_alerts.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xxhdpi/menu_alerts.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_alert_report.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_alert_report.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_bike_topview_green.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/bike_topview_green.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_hospital.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xxhdpi/hospital.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_shape_circle_red.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/shape_circle_red.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_drawer_list_item.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/drawer_list_item.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_driver.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/driver.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_dot_black_24dp.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_dot_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-mdpi_safety.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-mdpi/safety.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_car_icon_blue.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_car_icon_blue.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_no_network.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/no_network.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-ldpi_minimize.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-ldpi/minimize.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/anim_fade_out.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/anim/fade_out.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_fragment_pin_validation.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/fragment_pin_validation.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_notification_setting.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_notification_setting.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_maximize.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/maximize.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_my_location.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_my_location.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_menu_batteryjump_red.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/menu_batteryjump_red.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_list.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_list.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-ldpi_bghomegridview.webp.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-ldpi/bghomegridview.webp"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_expandablelistviewsubcat.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/expandablelistviewsubcat.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_minimize.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xxhdpi/minimize.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_ambulance.webp.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/ambulance.webp"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_add_query.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_add_query.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_button_boarder_disable.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/button_boarder_disable.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/anim_bottom_out.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/anim/bottom_out.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_notification_layout.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/notification_layout.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_car_icon.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_car_icon.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_maximize.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xhdpi/maximize.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_arrow_down.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xhdpi/arrow_down.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_hospital.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xhdpi/hospital.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_vehiclegroup_design.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/vehiclegroup_design.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_faq.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_faq.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_first_box.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/first_box.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/color_bg_chip_selection_list.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/color/bg_chip_selection_list.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-mdpi_menu_product_feature.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-mdpi/menu_product_feature.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_minimize.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/minimize.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_menu_batteryjump.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xxhdpi/menu_batteryjump.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_vehicle_status.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/vehicle_status.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_notification_icon.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xhdpi/notification_icon.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_time_watch.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_time_watch.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_bg_spinner_background.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/bg_spinner_background.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_map_green.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_map_green.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_bg_progress_red.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/bg_progress_red.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ac_idle.webp.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ac_idle.webp"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_menu_product_feature.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xxhdpi/menu_product_feature.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_maximize.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xxhdpi/maximize.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_send.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_send.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_button_shape_new.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/button_shape_new.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_notification_icon.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xxhdpi/notification_icon.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-ldpi_maximize.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-ldpi/maximize.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_marker_red.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/marker_red.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_edittext_boarder_address.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/edittext_boarder_address.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_change_pwd.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/change_pwd.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_minimize.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xhdpi/minimize.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_menu_virtualboundry.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xhdpi/menu_virtualboundry.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_success.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/success.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/raw_two_wheelar.mpeg.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/raw/two_wheelar.mpeg"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_list_item_bg_normal.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/list_item_bg_normal.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-mdpi_hospital.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-mdpi/hospital.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/xml_provider_paths.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/xml/provider_paths.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/menu_provider_advsearch.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/menu/provider_advsearch.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_action_bar_fleet.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/action_bar_fleet.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_amin.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/amin.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_search_black.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_search_black.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_sliding_main.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_sliding_main.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_info_window_map_click.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/info_window_map_click.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_idle_vehicle.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/idle_vehicle.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_report.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/report.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/menu_menu_drivers.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/menu/menu_drivers.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_place.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_place.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_navigationdrawer_header.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/navigationdrawer_header.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/navigation_nav_remote_lock.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/navigation/nav_remote_lock.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_item_info_window_view.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/item_info_window_view.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_item_vehicle_master.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/item_vehicle_master.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-mdpi_arrow_down.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-mdpi/arrow_down.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_fragment_vehicle_lock_home.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/fragment_vehicle_lock_home.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/menu_menu_geofence.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/menu/menu_geofence.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_car_icon_orage.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_car_icon_orage.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_user_list.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_user_list.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_remote_lock_history.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_remote_lock_history.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_dashbaordstatusgreen.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/dashbaordstatusgreen.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_editgeoo.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/editgeoo.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_check_circle_black_24dp.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_check_circle_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_near_by_places.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_near_by_places.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_shape_circle_green.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/shape_circle_green.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_edit_geo.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/edit_geo.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_arrow_down.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_arrow_down.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_report_alert.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_report_alert.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_item_vehicle_timeline_moving.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/item_vehicle_timeline_moving.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_vehiclewhite.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/vehiclewhite.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_info_window_reply.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/info_window_reply.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/menu_activity_notification_actions.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/menu/activity_notification_actions.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_menu_replay.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/menu_replay.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_login_new.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_login_new.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_repair.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xhdpi/repair.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_arrow_down.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/arrow_down.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_vehicle_list_item_geofence.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/vehicle_list_item_geofence.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_user_profile_layout.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/user_profile_layout.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_volume_mute_black_24dp.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_volume_mute_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_partial_custom_dialog.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/partial_custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_item_alert_report_view.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/item_alert_report_view.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_replaytracking.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_replaytracking.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_lock.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-ldpi_menu_virtualboundry.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-ldpi/menu_virtualboundry.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_nearmeicon.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/nearmeicon.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_local_hospital_red.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_local_hospital_red.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_bg_progress_green.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/bg_progress_green.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_sliding1.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/sliding1.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_remote_lock.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_remote_lock.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_edit.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_bottomsheet_top_border.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/bottomsheet_top_border.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_police_station.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/police_station.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_top_border.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/top_border.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_reports.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_reports.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_custom_edit_text_cursor.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/custom_edit_text_cursor.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_spotlight_view.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/spotlight_view.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_odometer.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_odometer.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_bike_topview_black.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/bike_topview_black.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_vehicle_idle_summary_report_new.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_vehicle_idle_summary_report_new.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_navigation_black_24dp.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_navigation_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/raw_parkingon.mp3.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/raw/parkingon.mp3"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_safety.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xxhdpi/safety.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-ldpi_menu_batteryjump.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-ldpi/menu_batteryjump.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_provider_list_location.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_provider_list_location.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_about_us_layout.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/about_us_layout.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_sliding_fleet.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_sliding_fleet.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/anim_right_in.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/anim/right_in.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_action_bar.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/action_bar.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_arrow_down.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/arrow_down.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_menu_flat_tyre.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xhdpi/menu_flat_tyre.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_travelpulsebg.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/travelpulsebg.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_item_vehicle_performance_view.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/item_vehicle_performance_view.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-ldpi_menu_realtracking.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-ldpi/menu_realtracking.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_comment.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_comment.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_grid_select_effect.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/grid_select_effect.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_report_red.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/report_red.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_vts_options_list_layout.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/vts_options_list_layout.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_vehicle_lock.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_vehicle_lock.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_menu_alerts.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/menu_alerts.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_marker_violet.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/marker_violet.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_third_box.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/third_box.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_movecir.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/movecir.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_lock_unlock_dialog.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/lock_unlock_dialog.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_danger_speed.webp.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/danger_speed.webp"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_menu_alerts.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xhdpi/menu_alerts.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_bg_blue_gradient.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/bg_blue_gradient.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_menu_product_feature.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/menu_product_feature.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_towing_alert.webp.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/towing_alert.webp"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_upload_document_details.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_upload_document_details.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_bghomegridview.webp.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xxhdpi/bghomegridview.webp"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-mdpi_repair.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-mdpi/repair.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_provider_list_item.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/provider_list_item.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_safety.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/safety.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_item_notification_setting_view.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/item_notification_setting_view.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_maximize_black.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/maximize_black.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_arrow_left_black.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_arrow_left_black.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_menu_flat_tyre_red.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/menu_flat_tyre_red.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_vehicle_list_item_filter.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/vehicle_list_item_filter.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_fragment_feeltusers.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/fragment_feeltusers.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_calendar.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_calendar.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-ldpi_call.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-ldpi/call.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_svg_icon_layout.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/svg_icon_layout.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_greenmarker.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/greenmarker.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_vehicle__group.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_vehicle__group.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_explore.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_explore.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_expandablelistcategory.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/expandablelistcategory.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_menu_vehicle_towing.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xxhdpi/menu_vehicle_towing.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_menu_flat_tyre.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xxhdpi/menu_flat_tyre.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_user_profile_red.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/user_profile_red.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_car_icon_red.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_car_icon_red.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_fire_station_red.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/fire_station_red.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/raw_ac_idling.mp3.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/raw/ac_idling.mp3"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_ambulance.webp.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xhdpi/ambulance.webp"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-mdpi_menu_realtracking.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-mdpi/menu_realtracking.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-mdpi_menu_virtualboundry.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-mdpi/menu_virtualboundry.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-mdpi_maximize.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-mdpi/maximize.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-mdpi_menu_alerts.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-mdpi/menu_alerts.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_edittext_boarder_profiles.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/edittext_boarder_profiles.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_customdailogforgeofence.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/customdailogforgeofence.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_bluering_icon.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/bluering_icon.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_add_driver.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_add_driver.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_four_box.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/four_box.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ambulance.webp.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xxhdpi/ambulance.webp"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_safety.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-xhdpi/safety.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/menu_context_menu.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/menu/context_menu.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_gmap.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/gmap.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_item_user_view.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/item_user_view.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/menu_menu_search.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/menu/menu_search.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/anim_right_in_anim.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/anim/right_in_anim.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/raw_dangerousspeed.mp3.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/raw/dangerousspeed.mp3"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-ldpi_safety.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-ldpi/safety.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_item_faq_view.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/item_faq_view.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_support.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_support.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/menu_near_by_places.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/menu/near_by_places.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_car_location.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_car_location.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_notification_setting.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/notification_setting.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_bghomegridview.webp.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/bghomegridview.webp"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_places_background_circle.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/places_background_circle.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_vehicle_stop_summary_report.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_vehicle_stop_summary_report.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_fire_station.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/fire_station.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_car_park.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_car_park.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_location.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_location.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-mdpi_menu_replay.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-mdpi/menu_replay.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-ldpi_hospital.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-ldpi/hospital.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-ldpi_tyre.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-ldpi/tyre.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_reply_black_24dp.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_reply_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable-hdpi_menu_realtracking.png.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable-hdpi/menu_realtracking.png"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/layout_activity_forget__password__success.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_forget__password__success.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/drawable_ic_place_black.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/drawable/ic_place_black.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/anim_slide_out.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/anim/slide_out.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    }
+]

@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.trimax.vts.mobile"
+    android:targetSandboxVersion="2"
+    android:versionCode="61"
+    android:versionName="2.2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        android:required="true" /> <!-- Required if your app targets Android 10 (API level 29) or higher -->
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        android:required="false" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" /> -->
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" /> <!-- <uses-permission android:name="android.permission.CAMERA" /> -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        android:required="false" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- android:icon="@drawable/arrow_back" -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- <uses-permission android:name="android.permission.GET_ACCOUNTS" /> -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:required="true" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+    <permission
+        android:name="com.trimax.vts.mobile.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.trimax.vts.mobile.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- START: ShortcutBadger -->
+    <!-- Samsung -->
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <application
+        android:name="com.trimax.vts.ApplicationM"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TravelPulse"
+        android:largeHeap="true"
+        android:multiArch="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/nav_bar_theme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.trimax.vts.vehicle_lock.VehicleLockActivity" >
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <!-- Here map android starter -->
+        <meta-data
+            android:name="com.here.android.maps.appid"
+            android:value="vM5rEKdEPUxeR5HX23ji" />
+        <meta-data
+            android:name="com.here.android.maps.apptoken"
+            android:value="_bAhJAeJNvrtgA8KGPBE2A" /> <!-- Here map android lite -->
+        <!--
+<meta-data android:name="com.here.sdk.access_key_id" android:value="DTgP1uXOLM_AefnsSiO75Q" />
+        <meta-data android:name="com.here.sdk.access_key_secret" android:value="2IN_J3r76g2ZbWEdzXRl0EyK3jMsh2EAmkoLeZAYIkXWeegHdeg7v5ZVfIHYr2TDtl5ftVMgSWVHI-wIRPM8fg" />
+        -->
+        <activity
+            android:name="com.trimax.vts.view.about.SplashscreenActivity"
+            android:hardwareAccelerated="false"
+            android:label="TravelPulse"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.trimax.vts.view.complaints.CommentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialActionBar" />
+        <activity
+            android:name="com.trimax.vts.view.reports.ReportAlertActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.trimax.vts.view.reports.ReportsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialActionBar" />
+        <activity
+            android:name="com.trimax.vts.view.reports.ReportDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialActionBar" />
+        <activity android:name="com.trimax.vts.view.faq.FaqActivity" />
+        <activity
+            android:name="com.trimax.vts.view.complaints.AddQueryActivity"
+            android:theme="@style/MaterialActionBar" />
+        <activity
+            android:name="com.trimax.vts.view.complaints.CustomerQueriesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialActionBar" />
+        <activity
+            android:name="com.trimax.vts.view.users.AddUserActivity"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name="com.trimax.vts.view.users.UserListActivity"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name="com.trimax.vts.view.LoginActivity"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name="com.trimax.vts.view.notifications.NotificationSettingActivity"
+            android:theme="@style/MaterialActionBar" />
+        <activity android:name="com.trimax.vts.view.lock.RemoteLockHistoryActivity" />
+        <activity
+            android:name="com.trimax.vts.view.maps.AutoCompleteAddressActivity"
+            android:theme="@style/MaterialActionBar" />
+        <activity
+            android:name="com.trimax.vts.view.lock.RemoteLockActivity"
+            android:theme="@style/MaterialActionBar" />
+        <activity
+            android:name="com.trimax.vts.view.nearby.NearByPlacesActivity"
+            android:label="@string/title_activity_near_by_places"
+            android:theme="@style/EditTextAppTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.trimax.vts.view.login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/EditTextAppThemeLoginReg"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name="com.trimax.vts.view.provider.ProviderListActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.trimax.vts.view.dashboard.CustomerDashboardActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Home"
+            android:screenOrientation="portrait"
+            android:theme="@style/nav_bar_theme_no_actionbar"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.trimax.vts.view.maps.RealTimeTrackingActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Real Time Vehicle Tracking"
+            android:screenOrientation="portrait"
+            android:theme="@style/vts_nav_bar_theme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.trimax.vts.view.login.UserProfileActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/UserProfile"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.trimax.vts.view.vehicle.VTSSetVehicalActivity"
+            android:label="@string/title_activity_vtsset_vehical"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.trimax.vts.view.login.ForgetPasswordActivityNew"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.trimax.vts.view.provider.ProviderListLocationActivity"
+            android:label="@string/title_activity_provider_list_location"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.trimax.vts.view.provider.ProviderADVSearchActivity"
+            android:label="@string/title_activity_provider_advsearch"
+            android:screenOrientation="portrait"
+            android:theme="@style/EditTextAppThemeTransparent" />
+        <activity
+            android:name="com.trimax.vts.view.notifications.NotificationActivity"
+            android:label="@string/Notification"
+            android:screenOrientation="portrait"
+            android:theme="@style/notificationActivityTheme" />
+        <activity
+            android:name="com.trimax.vts.view.login.ChangePasswordActivity"
+            android:label="@string/title_activity_ChangePassword"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialActionBar" />
+        <activity
+            android:name="com.trimax.vts.view.maps.ReplayTrackingActivity"
+            android:label="@string/title_activity_ReplayTracking"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.trimax.vts.view.reports.Activity.AlertReportActivity"
+            android:label="@string/title_activity_Alerts_Reports"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.trimax.vts.view.about.AboutUS" />
+        <activity
+            android:name="com.trimax.vts.view.master.activity.Activity_Drivers"
+            android:label="@string/titile_drives"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name="com.trimax.vts.view.master.activity.Activity_FleetSubUsers"
+            android:label="Fleet Sub User"
+            android:screenOrientation="portrait"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name="com.trimax.vts.view.dashboard.FleetUserDashBoard"
+            android:theme="@style/nav_bar_theme_no_actionbar"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.trimax.vts.view.vehicle.VehicleStatusActivity"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name="com.trimax.vts.view.notifications.FilterDynamicNew"
+            android:label="Filter"
+            android:theme="@style/nav_bar_theme2" />
+        <activity
+            android:name="com.trimax.vts.view.reports.Activity.VehicleIdleReportActivity"
+            android:label="Vehicle Idle Summary Report"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.trimax.vts.view.reports.Activity.VehicleStopReportActivity"
+            android:label="Vehicle Stop Summary Report"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.trimax.vts.view.reports.Activity.VehicleRunReportActivity"
+            android:label="Vehicle Run Summary Report"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.trimax.vts.view.reports.Activity.CurrentVehicleStatusReportActivityNew"
+            android:label="Current Vehicle Status Report"
+            android:screenOrientation="portrait"
+            android:theme="@style/notificationActivityTheme" />
+        <activity
+            android:name="com.trimax.vts.view.reports.Activity.AlertSummaryReportActivityNew"
+            android:label="Alert Summary Report"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.trimax.vts.view.reports.Activity.VehicleSummaryReportActivityNew"
+            android:label="Vehicle Summary Report"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.trimax.vts.view.master.activity.Activity_Vehicle_Master"
+            android:label="Vehicles"
+            android:screenOrientation="portrait"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name="com.trimax.vts.view.master.activity.Activity_Vehical_Group"
+            android:label="Vehicles Group"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.trimax.vts.view.master.activity.AddDriverActivity"
+            android:label="Drivers"
+            android:screenOrientation="portrait"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name="com.trimax.vts.view.master.activity.UpdateVehicleProfileActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name="com.trimax.vts.view.master.activity.AddFleetSubUserActivity"
+            android:label="Fleet Sub User"
+            android:screenOrientation="portrait"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name="com.trimax.vts.view.master.activity.AddVehicleGroupActivity"
+            android:label="Vehicle Group"
+            android:screenOrientation="portrait"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name="com.trimax.vts.view.notifications.SetNotificationPreferenceActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name="com.trimax.vts.view.maps.GeoFencingNew"
+            android:label="Virtual Boundary"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.trimax.vts.view.notifications.ActivityAlertParkedOut"
+            android:excludeFromRecents="true"
+            android:screenOrientation="sensorPortrait"
+            android:showOnLockScreen="true"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name="com.trimax.vts.view.document.Activity_Document"
+            android:theme="@style/nav_bar_theme.NoActionBar" /> <!-- Manage Masters -->
+        <activity
+            android:name="com.trimax.vts.view.document.Activity_UplaodDocument"
+            android:theme="@style/nav_bar_theme.NoActionBar" />
+        <activity
+            android:name="com.trimax.vts.view.vehicle.ActivityTravelPerformance"
+            android:theme="@style/performace_theme" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_map_api_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".SearchResultActivity" />
+        <meta-data
+            android:name="com.onesignal.NotificationOpened.DEFAULT"
+            android:value="DISABLE" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="ce9276ef3772039f81471c74437c8b9ba6a32c07" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.trimax.vts.mobile.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <receiver
+            android:name="com.trimax.vts.receiver.ScreenOnOffReceiver"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.trimax.vts.receiver.AlarmReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <!-- For HTC devices -->
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.trimax.vts.services.MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.trimax.vts.services.SendNotificationService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.trimax.vts.services.StartAppService"
+            android:enabled="true" />
+        <service
+            android:name="com.trimax.vts.services.MyNotificationExtenderService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+            <intent-filter>
+                <action android:name="com.onesignal.NotificationExtender" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.trimax.vts.services.AppLocationService"
+            android:enabled="true" />
+        <service
+            android:name="com.trimax.vts.services.BackgroundNotificationService"
+            android:enabled="true" />
+        <service
+            android:name="com.trimax.vts.services.ScreenOnOffBackgroundService"
+            android:enabled="true" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required="true" />
+
+        <meta-data
+            android:name="onesignal_app_id"
+            android:value="1e4f9b8d-5226-4e44-b2ea-690b9a17ebb6" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+        <meta-data
+            android:name="onesignal_google_project_number"
+            android:value="str:604870430844" />
+
+        <receiver
+            android:name="com.onesignal.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+
+            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+            <intent-filter android:priority="999" >
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.trimax.vts.mobile" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+
+        <service android:name="com.onesignal.GcmIntentService" />
+        <service
+            android:name="com.onesignal.GcmIntentJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.onesignal.RestoreJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.onesignal.RestoreKickoffJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.onesignal.SyncService"
+            android:stopWithTask="true" />
+        <service
+            android:name="com.onesignal.SyncJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name="com.onesignal.PermissionsActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service android:name="com.onesignal.NotificationRestoreService" />
+
+        <receiver android:name="com.onesignal.BootUpReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.onesignal.UpgradeReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <provider
+            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+            android:authorities="com.trimax.vts.mobile.crashlyticsinitprovider"
+            android:exported="false"
+            android:initOrder="90" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+        <activity
+            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+            android:enabled="false"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:process=":playcore_missing_splits_activity"
+            android:stateNotNeeded="true" />
+        <activity
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:enabled="false"
+            android:exported="false"
+            android:stateNotNeeded="true"
+            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+        <service
+            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+            android:enabled="false"
+            android:exported="true" />
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.trimax.vts.mobile.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.trimax.vts.mobile.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
+    </application>
+
+</manifest>

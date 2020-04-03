@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_user_list.xml",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_user_list.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_faq.xml",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_faq.xml"
+    },
+    {
+        "merged": "/Users/konave1/Desktop/TravelPulse-1/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_add_user.xml",
+        "source": "/Users/konave1/Desktop/TravelPulse-1/app/src/main/res/layout/activity_add_user.xml"
+    }
+]

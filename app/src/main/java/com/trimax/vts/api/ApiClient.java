@@ -85,6 +85,7 @@ public class ApiClient {
                     public Response intercept(Interceptor.Chain chain) throws IOException {
                         Request request = chain.request()
                                 .newBuilder()
+                                
                                 .addHeader("X-API-KEY",apiKey)
                                 .addHeader("Authorization", auth.replace("\n",""))
                                 .build();

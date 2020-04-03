@@ -1,0 +1,1182 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.trimax.vts.mobile"
+4    android:versionCode="61"
+5    android:versionName="2.2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:6:5-79
+11-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:6:22-76
+12    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+12-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:7:5-75
+12-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:7:22-72
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:8:5-67
+13-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:9:5-77
+14-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:9:22-74
+15    <uses-permission
+15-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:10:5-12:35
+16        android:name="android.permission.READ_PHONE_STATE"
+16-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:11:9-59
+17        android:required="true" /> <!-- Required if your app targets Android 10 (API level 29) or higher -->
+17-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:12:9-32
+18    <uses-permission
+18-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:13:5-15:36
+19        android:name="android.permission.ACCESS_NETWORK_STATE"
+19-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:14:9-63
+20        android:required="false" />
+20-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:15:9-33
+21    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+21-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:16:5-85
+21-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:16:22-82
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" /> -->
+22-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:17:5-81
+22-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:17:22-78
+23    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" /> <!-- <uses-permission android:name="android.permission.CAMERA" /> -->
+23-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:18:5-98
+23-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:18:22-95
+24    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+24-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:19:5-81
+24-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:19:22-78
+25    <uses-permission
+25-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:20:5-22:36
+26        android:name="android.permission.VIBRATE"
+26-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:21:9-50
+27        android:required="false" />
+27-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:22:9-33
+28    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- android:icon="@drawable/arrow_back" -->
+28-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:23:5-76
+28-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:23:22-73
+29    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- <uses-permission android:name="android.permission.GET_ACCOUNTS" /> -->
+29-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:24:5-81
+29-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:24:22-78
+30    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+30-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:25:5-78
+30-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:25:22-75
+31    <uses-permission
+31-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:26:5-28:35
+32        android:name="android.permission.READ_EXTERNAL_STORAGE"
+32-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:27:9-64
+33        android:required="true" />
+33-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:28:9-32
+34    <uses-permission android:name="android.permission.WAKE_LOCK" />
+34-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:29:5-68
+34-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:29:22-65
+35    <uses-permission android:name="android.permission.CALL_PHONE" />
+35-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:30:5-69
+35-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:30:22-66
+36
+37    <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+38    <permission
+38-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:7:5-9:47
+39        android:name="com.trimax.vts.mobile.permission.C2D_MESSAGE"
+39-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:8:9-63
+40        android:protectionLevel="signature" />
+40-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:9:9-44
+41
+42    <uses-permission android:name="com.trimax.vts.mobile.permission.C2D_MESSAGE" />
+42-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:11:5-79
+42-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:11:22-76
+43    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- START: ShortcutBadger -->
+43-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:17:5-82
+43-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:17:22-79
+44    <!-- Samsung -->
+45    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+45-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:31:5-86
+45-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:31:22-83
+46    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+46-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:32:5-87
+46-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:32:22-84
+47    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+47-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:33:5-81
+47-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:33:22-78
+48    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+48-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:34:5-83
+48-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:34:22-80
+49    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+49-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:35:5-88
+49-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:35:22-85
+50    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+50-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:36:5-92
+50-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:36:22-89
+51    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+51-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:37:5-84
+51-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:37:22-81
+52    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+52-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:38:5-83
+52-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:38:22-80
+53    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+53-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:39:5-91
+53-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:39:22-88
+54    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+54-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:40:5-92
+54-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:40:22-89
+55    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+55-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:41:5-93
+55-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:41:22-90
+56    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+56-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:42:5-73
+56-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:42:22-70
+57    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+57-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:43:5-82
+57-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:43:22-79
+58    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+58-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:44:5-83
+58-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:44:22-80
+59    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+59-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:45:5-88
+59-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:45:22-85
+60    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+60-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:46:5-89
+60-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:46:22-86
+61
+62    <uses-feature
+62-->[com.google.android.gms:play-services-maps:17.0.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/6c85df3134e255a2e99481ffde96bb2e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+63        android:glEsVersion="0x00020000"
+63-->[com.google.android.gms:play-services-maps:17.0.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/6c85df3134e255a2e99481ffde96bb2e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+64        android:required="true" />
+64-->[com.google.android.gms:play-services-maps:17.0.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/6c85df3134e255a2e99481ffde96bb2e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+65
+66    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+66-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:26:5-110
+66-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:26:22-107
+67
+68    <application
+68-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:32:5-371:19
+69        android:name="com.trimax.vts.ApplicationM"
+69-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:33:9-51
+70        android:allowBackup="false"
+70-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:34:9-36
+71        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+71-->[androidx.core:core:1.1.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/bb083fb2a52fb24959de285d3e27e92c/core-1.1.0/AndroidManifest.xml:24:18-86
+72        android:debuggable="true"
+73        android:fullBackupContent="false"
+73-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:35:9-42
+74        android:icon="@mipmap/ic_launcher"
+74-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:40:9-43
+75        android:label="TravelPulse"
+75-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:36:9-36
+76        android:largeHeap="true"
+76-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:37:9-33
+77        android:multiArch="true"
+77-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:38:9-33
+78        android:networkSecurityConfig="@xml/network_security_config"
+78-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:39:9-69
+79        android:roundIcon="@mipmap/ic_launcher_round"
+79-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:41:9-54
+80        android:supportsRtl="true"
+80-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:42:9-35
+81        android:testOnly="true"
+82        android:theme="@style/nav_bar_theme"
+82-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:43:9-45
+83        android:usesCleartextTraffic="true" >
+83-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:44:9-44
+84        <activity android:name="com.trimax.vts.vehicle_lock.VehicleLockActivity" >
+84-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:46:9-51:20
+84-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:46:19-81
+85
+86            <!--
+87            <intent-filter>
+88                <action android:name="android.intent.action.MAIN" />
+89                <category android:name="android.intent.category.LAUNCHER" />
+90            </intent-filter>
+91            -->
+92        </activity>
+93        <!-- Here map android starter -->
+94        <meta-data
+94-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:53:9-55:52
+95            android:name="com.here.android.maps.appid"
+95-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:54:13-55
+96            android:value="vM5rEKdEPUxeR5HX23ji" />
+96-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:55:13-49
+97        <meta-data
+97-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:56:9-58:54
+98            android:name="com.here.android.maps.apptoken"
+98-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:57:13-58
+99            android:value="_bAhJAeJNvrtgA8KGPBE2A" /> <!-- Here map android lite -->
+99-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:58:13-51
+100        <!--
+101<meta-data android:name="com.here.sdk.access_key_id" android:value="DTgP1uXOLM_AefnsSiO75Q" />
+102        <meta-data android:name="com.here.sdk.access_key_secret" android:value="2IN_J3r76g2ZbWEdzXRl0EyK3jMsh2EAmkoLeZAYIkXWeegHdeg7v5ZVfIHYr2TDtl5ftVMgSWVHI-wIRPM8fg" />
+103        -->
+104        <activity
+104-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:63:9-73:20
+105            android:name="com.trimax.vts.view.about.SplashscreenActivity"
+105-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:64:13-55
+106            android:hardwareAccelerated="false"
+106-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:65:13-48
+107            android:label="TravelPulse"
+107-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:66:13-40
+108            android:screenOrientation="portrait"
+108-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:67:13-49
+109            android:theme="@style/SplashScreen" >
+109-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:68:13-48
+110            <intent-filter>
+110-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:69:13-72:29
+111                <action android:name="android.intent.action.MAIN" />
+111-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:70:17-69
+111-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:70:25-66
+112
+113                <category android:name="android.intent.category.LAUNCHER" />
+113-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:71:17-77
+113-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:71:27-74
+114            </intent-filter>
+115        </activity>
+116        <activity
+116-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:74:9-77:56
+117            android:name="com.trimax.vts.view.complaints.CommentActivity"
+117-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:75:13-55
+118            android:screenOrientation="portrait"
+118-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:76:13-49
+119            android:theme="@style/MaterialActionBar" />
+119-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:77:13-53
+120        <activity
+120-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:78:9-80:52
+121            android:name="com.trimax.vts.view.reports.ReportAlertActivity"
+121-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:79:13-56
+122            android:screenOrientation="portrait" />
+122-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:80:13-49
+123        <activity
+123-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:81:9-84:56
+124            android:name="com.trimax.vts.view.reports.ReportsActivity"
+124-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:82:13-52
+125            android:screenOrientation="portrait"
+125-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:83:13-49
+126            android:theme="@style/MaterialActionBar" />
+126-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:84:13-53
+127        <activity
+127-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:85:9-88:56
+128            android:name="com.trimax.vts.view.reports.ReportDetailsActivity"
+128-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:86:13-58
+129            android:screenOrientation="portrait"
+129-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:87:13-49
+130            android:theme="@style/MaterialActionBar" />
+130-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:88:13-53
+131        <activity android:name="com.trimax.vts.view.faq.FaqActivity" />
+131-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:89:9-53
+131-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:89:19-50
+132        <activity
+132-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:90:9-92:56
+133            android:name="com.trimax.vts.view.complaints.AddQueryActivity"
+133-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:91:13-56
+134            android:theme="@style/MaterialActionBar" />
+134-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:92:13-53
+135        <activity
+135-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:93:9-96:56
+136            android:name="com.trimax.vts.view.complaints.CustomerQueriesActivity"
+136-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:94:13-63
+137            android:screenOrientation="portrait"
+137-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:95:13-49
+138            android:theme="@style/MaterialActionBar" />
+138-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:96:13-53
+139        <activity
+139-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:97:9-99:49
+140            android:name="com.trimax.vts.view.users.AddUserActivity"
+140-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:98:13-50
+141            android:theme="@style/LoginTheme" />
+141-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:99:13-46
+142        <activity
+142-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:100:9-102:49
+143            android:name="com.trimax.vts.view.users.UserListActivity"
+143-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:101:13-51
+144            android:theme="@style/LoginTheme" />
+144-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:102:13-46
+145        <activity
+145-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:103:9-105:49
+146            android:name="com.trimax.vts.view.LoginActivity"
+146-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:104:13-42
+147            android:theme="@style/LoginTheme" />
+147-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:105:13-46
+148        <activity
+148-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:106:9-108:56
+149            android:name="com.trimax.vts.view.notifications.NotificationSettingActivity"
+149-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:107:13-70
+150            android:theme="@style/MaterialActionBar" />
+150-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:108:13-53
+151        <activity android:name="com.trimax.vts.view.lock.RemoteLockHistoryActivity" />
+151-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:109:9-68
+151-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:109:19-65
+152        <activity
+152-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:110:9-112:56
+153            android:name="com.trimax.vts.view.maps.AutoCompleteAddressActivity"
+153-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:111:13-61
+154            android:theme="@style/MaterialActionBar" />
+154-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:112:13-53
+155        <activity
+155-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:113:9-115:56
+156            android:name="com.trimax.vts.view.lock.RemoteLockActivity"
+156-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:114:13-52
+157            android:theme="@style/MaterialActionBar" />
+157-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:115:13-53
+158        <activity
+158-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:116:9-120:67
+159            android:name="com.trimax.vts.view.nearby.NearByPlacesActivity"
+159-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:117:13-56
+160            android:label="@string/title_activity_near_by_places"
+160-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:118:13-66
+161            android:theme="@style/EditTextAppTheme"
+161-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:119:13-52
+162            android:windowSoftInputMode="adjustPan|stateHidden" />
+162-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:120:13-64
+163        <activity
+163-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:121:9-125:58
+164            android:name="com.trimax.vts.view.login.LoginActivity"
+164-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:122:13-48
+165            android:screenOrientation="portrait"
+165-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:123:13-49
+166            android:theme="@style/EditTextAppThemeLoginReg"
+166-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:124:13-60
+167            android:windowSoftInputMode="stateVisible" />
+167-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:125:13-55
+168        <activity
+168-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:126:9-130:55
+169            android:name="com.trimax.vts.view.provider.ProviderListActivity"
+169-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:127:13-58
+170            android:configChanges="orientation|screenSize"
+170-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:128:13-59
+171            android:screenOrientation="portrait"
+171-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:129:13-49
+172            android:windowSoftInputMode="adjustPan" />
+172-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:130:13-52
+173        <activity
+173-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:131:9-137:67
+174            android:name="com.trimax.vts.view.dashboard.CustomerDashboardActivity"
+174-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:132:13-64
+175            android:configChanges="orientation|screenSize"
+175-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:133:13-59
+176            android:label="Home"
+176-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:134:13-33
+177            android:screenOrientation="portrait"
+177-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:135:13-49
+178            android:theme="@style/nav_bar_theme_no_actionbar"
+178-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:136:13-62
+179            android:windowSoftInputMode="adjustPan|stateHidden" />
+179-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:137:13-64
+180        <activity
+180-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:138:9-144:55
+181            android:name="com.trimax.vts.view.maps.RealTimeTrackingActivity"
+181-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:139:13-58
+182            android:configChanges="orientation|screenSize"
+182-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:140:13-59
+183            android:label="Real Time Vehicle Tracking"
+183-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:141:13-55
+184            android:screenOrientation="portrait"
+184-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:142:13-49
+185            android:theme="@style/vts_nav_bar_theme"
+185-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:143:13-53
+186            android:windowSoftInputMode="adjustPan" />
+186-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:144:13-52
+187        <activity
+187-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:145:9-151:55
+188            android:name="com.trimax.vts.view.login.UserProfileActivity"
+188-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:146:13-54
+189            android:configChanges="orientation|screenSize"
+189-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:147:13-59
+190            android:label="@string/UserProfile"
+190-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:148:13-48
+191            android:screenOrientation="portrait"
+191-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:149:13-49
+192            android:theme="@style/MaterialActionBar"
+192-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:150:13-53
+193            android:windowSoftInputMode="adjustPan" />
+193-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:151:13-52
+194        <activity
+194-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:152:9-156:63
+195            android:name="com.trimax.vts.view.vehicle.VTSSetVehicalActivity"
+195-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:153:13-58
+196            android:label="@string/title_activity_vtsset_vehical"
+196-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:154:13-66
+197            android:screenOrientation="portrait"
+197-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:155:13-49
+198            android:windowSoftInputMode="stateAlwaysHidden" />
+198-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:156:13-60
+199        <activity
+199-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:157:9-159:52
+200            android:name="com.trimax.vts.view.login.ForgetPasswordActivityNew"
+200-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:158:13-60
+201            android:screenOrientation="portrait" />
+201-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:159:13-49
+202        <activity
+202-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:160:9-163:52
+203            android:name="com.trimax.vts.view.provider.ProviderListLocationActivity"
+203-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:161:13-66
+204            android:label="@string/title_activity_provider_list_location"
+204-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:162:13-74
+205            android:screenOrientation="portrait" />
+205-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:163:13-49
+206        <activity
+206-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:164:9-168:66
+207            android:name="com.trimax.vts.view.provider.ProviderADVSearchActivity"
+207-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:165:13-63
+208            android:label="@string/title_activity_provider_advsearch"
+208-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:166:13-70
+209            android:screenOrientation="portrait"
+209-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:167:13-49
+210            android:theme="@style/EditTextAppThemeTransparent" />
+210-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:168:13-63
+211        <activity
+211-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:169:9-173:64
+212            android:name="com.trimax.vts.view.notifications.NotificationActivity"
+212-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:170:13-63
+213            android:label="@string/Notification"
+213-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:171:13-49
+214            android:screenOrientation="portrait"
+214-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:172:13-49
+215            android:theme="@style/notificationActivityTheme" />
+215-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:173:13-61
+216        <activity
+216-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:174:9-178:56
+217            android:name="com.trimax.vts.view.login.ChangePasswordActivity"
+217-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:175:13-57
+218            android:label="@string/title_activity_ChangePassword"
+218-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:176:13-66
+219            android:screenOrientation="portrait"
+219-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:177:13-49
+220            android:theme="@style/MaterialActionBar" />
+220-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:178:13-53
+221        <activity
+221-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:179:9-183:55
+222            android:name="com.trimax.vts.view.maps.ReplayTrackingActivity"
+222-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:180:13-56
+223            android:label="@string/title_activity_ReplayTracking"
+223-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:181:13-66
+224            android:screenOrientation="portrait"
+224-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:182:13-49
+225            android:windowSoftInputMode="adjustPan" />
+225-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:183:13-52
+226        <activity
+226-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:184:9-188:55
+227            android:name="com.trimax.vts.view.reports.Activity.AlertReportActivity"
+227-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:185:13-65
+228            android:label="@string/title_activity_Alerts_Reports"
+228-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:186:13-66
+229            android:screenOrientation="portrait"
+229-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:187:13-49
+230            android:windowSoftInputMode="adjustPan" />
+230-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:188:13-52
+231        <activity android:name="com.trimax.vts.view.about.AboutUS" />
+231-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:189:9-51
+231-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:189:19-48
+232        <activity
+232-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:190:9-193:64
+233            android:name="com.trimax.vts.view.master.activity.Activity_Drivers"
+233-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:191:13-61
+234            android:label="@string/titile_drives"
+234-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:192:13-50
+235            android:theme="@style/nav_bar_theme.NoActionBar" />
+235-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:193:13-61
+236        <activity
+236-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:194:9-198:64
+237            android:name="com.trimax.vts.view.master.activity.Activity_FleetSubUsers"
+237-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:195:13-67
+238            android:label="Fleet Sub User"
+238-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:196:13-43
+239            android:screenOrientation="portrait"
+239-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:197:13-49
+240            android:theme="@style/nav_bar_theme.NoActionBar" />
+240-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:198:13-61
+241        <activity
+241-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:199:9-202:67
+242            android:name="com.trimax.vts.view.dashboard.FleetUserDashBoard"
+242-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:200:13-57
+243            android:theme="@style/nav_bar_theme_no_actionbar"
+243-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:201:13-62
+244            android:windowSoftInputMode="adjustPan|stateHidden" />
+244-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:202:13-64
+245        <activity
+245-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:203:9-205:64
+246            android:name="com.trimax.vts.view.vehicle.VehicleStatusActivity"
+246-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:204:13-58
+247            android:theme="@style/nav_bar_theme.NoActionBar" />
+247-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:205:13-61
+248        <activity
+248-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:206:9-209:53
+249            android:name="com.trimax.vts.view.notifications.FilterDynamicNew"
+249-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:207:13-59
+250            android:label="Filter"
+250-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:208:13-35
+251            android:theme="@style/nav_bar_theme2" />
+251-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:209:13-50
+252        <activity
+252-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:210:9-213:52
+253            android:name="com.trimax.vts.view.reports.Activity.VehicleIdleReportActivity"
+253-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:211:13-71
+254            android:label="Vehicle Idle Summary Report"
+254-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:212:13-56
+255            android:screenOrientation="portrait" />
+255-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:213:13-49
+256        <activity
+256-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:214:9-217:52
+257            android:name="com.trimax.vts.view.reports.Activity.VehicleStopReportActivity"
+257-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:215:13-71
+258            android:label="Vehicle Stop Summary Report"
+258-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:216:13-56
+259            android:screenOrientation="portrait" />
+259-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:217:13-49
+260        <activity
+260-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:218:9-221:52
+261            android:name="com.trimax.vts.view.reports.Activity.VehicleRunReportActivity"
+261-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:219:13-70
+262            android:label="Vehicle Run Summary Report"
+262-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:220:13-55
+263            android:screenOrientation="portrait" />
+263-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:221:13-49
+264        <activity
+264-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:222:9-226:64
+265            android:name="com.trimax.vts.view.reports.Activity.CurrentVehicleStatusReportActivityNew"
+265-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:223:13-83
+266            android:label="Current Vehicle Status Report"
+266-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:224:13-58
+267            android:screenOrientation="portrait"
+267-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:225:13-49
+268            android:theme="@style/notificationActivityTheme" />
+268-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:226:13-61
+269        <activity
+269-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:227:9-230:52
+270            android:name="com.trimax.vts.view.reports.Activity.AlertSummaryReportActivityNew"
+270-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:228:13-75
+271            android:label="Alert Summary Report"
+271-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:229:13-49
+272            android:screenOrientation="portrait" />
+272-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:230:13-49
+273        <activity
+273-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:231:9-234:52
+274            android:name="com.trimax.vts.view.reports.Activity.VehicleSummaryReportActivityNew"
+274-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:232:13-77
+275            android:label="Vehicle Summary Report"
+275-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:233:13-51
+276            android:screenOrientation="portrait" />
+276-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:234:13-49
+277        <activity
+277-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:235:9-239:64
+278            android:name="com.trimax.vts.view.master.activity.Activity_Vehicle_Master"
+278-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:236:13-68
+279            android:label="Vehicles"
+279-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:237:13-37
+280            android:screenOrientation="portrait"
+280-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:238:13-49
+281            android:theme="@style/nav_bar_theme.NoActionBar" />
+281-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:239:13-61
+282        <activity
+282-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:240:9-243:52
+283            android:name="com.trimax.vts.view.master.activity.Activity_Vehical_Group"
+283-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:241:13-67
+284            android:label="Vehicles Group"
+284-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:242:13-43
+285            android:screenOrientation="portrait" />
+285-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:243:13-49
+286        <activity
+286-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:244:9-248:64
+287            android:name="com.trimax.vts.view.master.activity.AddDriverActivity"
+287-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:245:13-62
+288            android:label="Drivers"
+288-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:246:13-36
+289            android:screenOrientation="portrait"
+289-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:247:13-49
+290            android:theme="@style/nav_bar_theme.NoActionBar" />
+290-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:248:13-61
+291        <activity
+291-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:249:9-253:64
+292            android:name="com.trimax.vts.view.master.activity.UpdateVehicleProfileActivity"
+292-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:250:13-73
+293            android:label=""
+293-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:251:13-29
+294            android:screenOrientation="portrait"
+294-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:252:13-49
+295            android:theme="@style/nav_bar_theme.NoActionBar" />
+295-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:253:13-61
+296        <activity
+296-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:254:9-258:64
+297            android:name="com.trimax.vts.view.master.activity.AddFleetSubUserActivity"
+297-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:255:13-68
+298            android:label="Fleet Sub User"
+298-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:256:13-43
+299            android:screenOrientation="portrait"
+299-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:257:13-49
+300            android:theme="@style/nav_bar_theme.NoActionBar" />
+300-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:258:13-61
+301        <activity
+301-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:259:9-263:64
+302            android:name="com.trimax.vts.view.master.activity.AddVehicleGroupActivity"
+302-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:260:13-68
+303            android:label="Vehicle Group"
+303-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:261:13-42
+304            android:screenOrientation="portrait"
+304-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:262:13-49
+305            android:theme="@style/nav_bar_theme.NoActionBar" />
+305-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:263:13-61
+306        <activity
+306-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:264:9-268:64
+307            android:name="com.trimax.vts.view.notifications.SetNotificationPreferenceActivity"
+307-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:265:13-76
+308            android:label=""
+308-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:266:13-29
+309            android:screenOrientation="portrait"
+309-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:267:13-49
+310            android:theme="@style/nav_bar_theme.NoActionBar" />
+310-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:268:13-61
+311        <activity
+311-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:269:9-272:52
+312            android:name="com.trimax.vts.view.maps.GeoFencingNew"
+312-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:270:13-47
+313            android:label="Virtual Boundary"
+313-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:271:13-45
+314            android:screenOrientation="portrait" />
+314-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:272:13-49
+315        <activity
+315-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:273:9-278:64
+316            android:name="com.trimax.vts.view.notifications.ActivityAlertParkedOut"
+316-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:274:13-65
+317            android:excludeFromRecents="true"
+317-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:275:13-46
+318            android:screenOrientation="sensorPortrait"
+318-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:276:13-55
+319            android:showOnLockScreen="true"
+319-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:277:13-44
+320            android:theme="@style/nav_bar_theme.NoActionBar" />
+320-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:278:13-61
+321        <activity
+321-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:279:9-281:64
+322            android:name="com.trimax.vts.view.document.Activity_Document"
+322-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:280:13-55
+323            android:theme="@style/nav_bar_theme.NoActionBar" /> <!-- Manage Masters -->
+323-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:281:13-61
+324        <activity
+324-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:282:9-284:64
+325            android:name="com.trimax.vts.view.document.Activity_UplaodDocument"
+325-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:283:13-61
+326            android:theme="@style/nav_bar_theme.NoActionBar" />
+326-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:284:13-61
+327        <activity
+327-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:285:9-287:55
+328            android:name="com.trimax.vts.view.vehicle.ActivityTravelPerformance"
+328-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:286:13-62
+329            android:theme="@style/performace_theme" />
+329-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:287:13-52
+330
+331        <meta-data
+331-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:289:9-291:58
+332            android:name="com.google.android.geo.API_KEY"
+332-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:290:13-58
+333            android:value="@string/google_map_api_key" />
+333-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:291:13-55
+334        <meta-data
+334-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:292:9-294:69
+335            android:name="com.google.android.gms.version"
+335-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:293:13-58
+336            android:value="@integer/google_play_services_version" />
+336-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:294:13-66
+337        <meta-data
+337-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:295:9-297:53
+338            android:name="android.app.default_searchable"
+338-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:296:13-58
+339            android:value=".SearchResultActivity" />
+339-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:297:13-50
+340        <meta-data
+340-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:298:9-300:39
+341            android:name="com.onesignal.NotificationOpened.DEFAULT"
+341-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:299:13-68
+342            android:value="DISABLE" />
+342-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:300:13-36
+343        <meta-data
+343-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:301:9-303:72
+344            android:name="io.fabric.ApiKey"
+344-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:302:13-44
+345            android:value="ce9276ef3772039f81471c74437c8b9ba6a32c07" />
+345-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:303:13-69
+346
+347        <provider
+348            android:name="androidx.core.content.FileProvider"
+348-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:306:13-62
+349            android:authorities="com.trimax.vts.mobile.provider"
+349-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:307:13-60
+350            android:exported="false"
+350-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:308:13-37
+351            android:grantUriPermissions="true" >
+351-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:309:13-47
+352            <meta-data
+352-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:310:13-312:58
+353                android:name="android.support.FILE_PROVIDER_PATHS"
+353-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:311:17-67
+354                android:resource="@xml/provider_paths" />
+354-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:312:17-55
+355        </provider>
+356
+357        <receiver
+357-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:315:9-322:20
+358            android:name="com.trimax.vts.receiver.ScreenOnOffReceiver"
+358-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:316:13-71
+359            android:enabled="true"
+359-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:317:13-35
+360            android:process=":remote" >
+360-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:318:13-38
+361            <intent-filter>
+361-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:319:13-321:29
+362                <action android:name="android.intent.action.BOOT_COMPLETED" />
+362-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:320:17-79
+362-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:320:25-76
+363            </intent-filter>
+364        </receiver>
+365        <receiver
+365-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:323:9-334:20
+366            android:name="com.trimax.vts.receiver.AlarmReceiver"
+366-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:324:13-65
+367            android:enabled="true" >
+367-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:325:13-35
+368            <intent-filter>
+368-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:326:13-333:29
+369                <category android:name="android.intent.category.DEFAULT" />
+369-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:327:17-76
+369-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:327:27-73
+370
+371                <action android:name="android.intent.action.BOOT_COMPLETED" />
+371-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:320:17-79
+371-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:320:25-76
+372                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+372-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:330:17-82
+372-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:330:25-79
+373                <!-- For HTC devices -->
+374                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+374-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:332:17-82
+374-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:332:25-79
+375            </intent-filter>
+376        </receiver>
+377
+378        <service android:name="com.trimax.vts.services.MyFirebaseMessagingService" >
+378-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:336:9-340:19
+378-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:336:18-83
+379            <intent-filter>
+379-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:337:13-339:29
+380                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+380-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:338:17-78
+380-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:338:25-75
+381            </intent-filter>
+382        </service>
+383        <service
+383-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:341:9-343:72
+384            android:name="com.trimax.vts.services.SendNotificationService"
+384-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:342:13-75
+385            android:permission="android.permission.BIND_JOB_SERVICE" />
+385-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:343:13-69
+386        <service
+386-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:344:9-346:38
+387            android:name="com.trimax.vts.services.StartAppService"
+387-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:345:13-67
+388            android:enabled="true" />
+388-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:346:13-35
+389        <service
+389-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:347:9-354:19
+390            android:name="com.trimax.vts.services.MyNotificationExtenderService"
+390-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:348:13-81
+391            android:exported="false"
+391-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:349:13-37
+392            android:permission="android.permission.BIND_JOB_SERVICE" >
+392-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:350:13-69
+393            <intent-filter>
+393-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:351:13-353:29
+394                <action android:name="com.onesignal.NotificationExtender" />
+394-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:352:17-77
+394-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:352:25-74
+395            </intent-filter>
+396        </service>
+397        <service
+397-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:355:9-357:38
+398            android:name="com.trimax.vts.services.AppLocationService"
+398-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:356:13-70
+399            android:enabled="true" />
+399-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:357:13-35
+400        <service
+400-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:358:9-360:38
+401            android:name="com.trimax.vts.services.BackgroundNotificationService"
+401-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:359:13-81
+402            android:enabled="true" />
+402-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:360:13-35
+403        <service
+403-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:361:9-363:38
+404            android:name="com.trimax.vts.services.ScreenOnOffBackgroundService"
+404-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:362:13-80
+405            android:enabled="true" />
+405-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:363:13-35
+406
+407        <uses-library
+407-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:365:9-367:40
+408            android:name="org.apache.http.legacy"
+408-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:366:13-50
+409            android:required="false" />
+409-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:367:13-37
+410        <uses-library
+410-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:368:9-370:39
+411            android:name="com.google.android.maps"
+411-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:369:13-51
+412            android:required="true" />
+412-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:370:13-36
+413
+414        <meta-data
+414-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:49:9-51:51
+415            android:name="onesignal_app_id"
+415-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:50:13-44
+416            android:value="1e4f9b8d-5226-4e44-b2ea-690b9a17ebb6" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+416-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:51:13-48
+417        <meta-data
+417-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:53:9-55:70
+418            android:name="onesignal_google_project_number"
+418-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:54:13-59
+419            android:value="str:604870430844" />
+419-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:55:13-67
+420
+421        <receiver
+421-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:57:9-67:20
+422            android:name="com.onesignal.GcmBroadcastReceiver"
+422-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:58:13-62
+423            android:permission="com.google.android.c2dm.permission.SEND" >
+423-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:59:13-73
+424
+425            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+426            <intent-filter android:priority="999" >
+426-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:62:13-66:29
+426-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:62:28-50
+427                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+427-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:63:17-81
+427-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:63:25-78
+428
+429                <category android:name="com.trimax.vts.mobile" />
+429-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:65:17-61
+429-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:65:27-58
+430            </intent-filter>
+431        </receiver>
+432        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+432-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:68:9-77
+432-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:68:19-74
+433
+434        <service android:name="com.onesignal.GcmIntentService" />
+434-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:70:9-66
+434-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:70:18-63
+435        <service
+435-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:71:9-73:72
+436            android:name="com.onesignal.GcmIntentJobService"
+436-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:72:13-61
+437            android:permission="android.permission.BIND_JOB_SERVICE" />
+437-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:73:13-69
+438        <service
+438-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:74:9-76:72
+439            android:name="com.onesignal.RestoreJobService"
+439-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:75:13-59
+440            android:permission="android.permission.BIND_JOB_SERVICE" />
+440-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:76:13-69
+441        <service
+441-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:77:9-79:72
+442            android:name="com.onesignal.RestoreKickoffJobService"
+442-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:78:13-66
+443            android:permission="android.permission.BIND_JOB_SERVICE" />
+443-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:79:13-69
+444        <service
+444-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:80:9-82:43
+445            android:name="com.onesignal.SyncService"
+445-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:81:13-53
+446            android:stopWithTask="true" />
+446-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:82:13-40
+447        <service
+447-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:83:9-85:72
+448            android:name="com.onesignal.SyncJobService"
+448-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:84:13-56
+449            android:permission="android.permission.BIND_JOB_SERVICE" />
+449-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:85:13-69
+450
+451        <activity
+451-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:87:9-89:75
+452            android:name="com.onesignal.PermissionsActivity"
+452-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:88:13-61
+453            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+453-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:89:13-72
+454
+455        <service android:name="com.onesignal.NotificationRestoreService" />
+455-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:91:9-76
+455-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:91:18-73
+456
+457        <receiver android:name="com.onesignal.BootUpReceiver" >
+457-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:93:9-98:20
+457-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:93:19-62
+458            <intent-filter>
+458-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:94:13-97:29
+459                <action android:name="android.intent.action.BOOT_COMPLETED" />
+459-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:320:17-79
+459-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:320:25-76
+460                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+460-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:330:17-82
+460-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:330:25-79
+461            </intent-filter>
+462        </receiver>
+463        <receiver android:name="com.onesignal.UpgradeReceiver" >
+463-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:99:9-103:20
+463-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:99:19-63
+464            <intent-filter>
+464-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:100:13-102:29
+465                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+465-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:101:17-84
+465-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:101:25-81
+466            </intent-filter>
+467        </receiver>
+468        <!--
+469             FirebaseMessagingService performs security checks at runtime,
+470             but set to not exported to explicitly avoid allowing another app to call it.
+471        -->
+472        <service
+472-->[com.google.firebase:firebase-messaging:20.1.4] /Users/konave1/.gradle/caches/transforms-2/files-2.1/084e582d5bb5b6616d7d4d016188f617/jetified-firebase-messaging-20.1.4/AndroidManifest.xml:28:9-34:19
+473            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+473-->[com.google.firebase:firebase-messaging:20.1.4] /Users/konave1/.gradle/caches/transforms-2/files-2.1/084e582d5bb5b6616d7d4d016188f617/jetified-firebase-messaging-20.1.4/AndroidManifest.xml:29:13-82
+474            android:exported="false" >
+474-->[com.google.firebase:firebase-messaging:20.1.4] /Users/konave1/.gradle/caches/transforms-2/files-2.1/084e582d5bb5b6616d7d4d016188f617/jetified-firebase-messaging-20.1.4/AndroidManifest.xml:30:13-37
+475            <intent-filter android:priority="-500" >
+475-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:337:13-339:29
+476                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+476-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:338:17-78
+476-->/Users/konave1/Desktop/TravelPulse-1/app/src/main/AndroidManifest.xml:338:25-75
+477            </intent-filter>
+478        </service>
+479        <service
+479-->[com.google.firebase:firebase-messaging:20.1.4] /Users/konave1/.gradle/caches/transforms-2/files-2.1/084e582d5bb5b6616d7d4d016188f617/jetified-firebase-messaging-20.1.4/AndroidManifest.xml:35:9-41:19
+480            android:name="com.google.firebase.components.ComponentDiscoveryService"
+480-->[com.google.firebase:firebase-messaging:20.1.4] /Users/konave1/.gradle/caches/transforms-2/files-2.1/084e582d5bb5b6616d7d4d016188f617/jetified-firebase-messaging-20.1.4/AndroidManifest.xml:36:13-84
+481            android:directBootAware="true"
+481-->[com.google.firebase:firebase-common:19.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/a5d4827be5cfd486700ed44f7959715a/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+482            android:exported="false" >
+482-->[com.google.firebase:firebase-messaging:20.1.4] /Users/konave1/.gradle/caches/transforms-2/files-2.1/084e582d5bb5b6616d7d4d016188f617/jetified-firebase-messaging-20.1.4/AndroidManifest.xml:37:13-37
+483            <meta-data
+483-->[com.google.firebase:firebase-messaging:20.1.4] /Users/konave1/.gradle/caches/transforms-2/files-2.1/084e582d5bb5b6616d7d4d016188f617/jetified-firebase-messaging-20.1.4/AndroidManifest.xml:38:13-40:85
+484                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+484-->[com.google.firebase:firebase-messaging:20.1.4] /Users/konave1/.gradle/caches/transforms-2/files-2.1/084e582d5bb5b6616d7d4d016188f617/jetified-firebase-messaging-20.1.4/AndroidManifest.xml:39:17-119
+485                android:value="com.google.firebase.components.ComponentRegistrar" />
+485-->[com.google.firebase:firebase-messaging:20.1.4] /Users/konave1/.gradle/caches/transforms-2/files-2.1/084e582d5bb5b6616d7d4d016188f617/jetified-firebase-messaging-20.1.4/AndroidManifest.xml:40:17-82
+486            <meta-data
+486-->[com.google.android.gms:play-services-measurement-api:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/c86bfae831599c0ab638eefd8bef1bf4/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:30:13-32:85
+487                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+487-->[com.google.android.gms:play-services-measurement-api:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/c86bfae831599c0ab638eefd8bef1bf4/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:31:17-139
+488                android:value="com.google.firebase.components.ComponentRegistrar" />
+488-->[com.google.android.gms:play-services-measurement-api:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/c86bfae831599c0ab638eefd8bef1bf4/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:32:17-82
+489            <meta-data
+489-->[com.google.firebase:firebase-iid:20.1.4] /Users/konave1/.gradle/caches/transforms-2/files-2.1/7b0adf1055ba4bdcfe384f7096d87aba/jetified-firebase-iid-20.1.4/AndroidManifest.xml:32:13-34:85
+490                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+490-->[com.google.firebase:firebase-iid:20.1.4] /Users/konave1/.gradle/caches/transforms-2/files-2.1/7b0adf1055ba4bdcfe384f7096d87aba/jetified-firebase-iid-20.1.4/AndroidManifest.xml:33:17-96
+491                android:value="com.google.firebase.components.ComponentRegistrar" />
+491-->[com.google.firebase:firebase-iid:20.1.4] /Users/konave1/.gradle/caches/transforms-2/files-2.1/7b0adf1055ba4bdcfe384f7096d87aba/jetified-firebase-iid-20.1.4/AndroidManifest.xml:34:17-82
+492            <meta-data
+492-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/58798ee45b6efd7cc410fc739424c063/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+493                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+493-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/58798ee45b6efd7cc410fc739424c063/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+494                android:value="com.google.firebase.components.ComponentRegistrar" />
+494-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/58798ee45b6efd7cc410fc739424c063/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+495            <meta-data
+495-->[com.google.firebase:firebase-installations:16.2.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/8057455aefc3936ae9520f4f9f799074/jetified-firebase-installations-16.2.0/AndroidManifest.xml:17:13-19:85
+496                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+496-->[com.google.firebase:firebase-installations:16.2.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/8057455aefc3936ae9520f4f9f799074/jetified-firebase-installations-16.2.0/AndroidManifest.xml:18:17-127
+497                android:value="com.google.firebase.components.ComponentRegistrar" />
+497-->[com.google.firebase:firebase-installations:16.2.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/8057455aefc3936ae9520f4f9f799074/jetified-firebase-installations-16.2.0/AndroidManifest.xml:19:17-82
+498        </service>
+499
+500        <provider
+500-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/konave1/.gradle/caches/transforms-2/files-2.1/8267f0c05c14d0a42520e969e74d4d09/jetified-crashlytics-2.10.1/AndroidManifest.xml:19:9-23:38
+501            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+501-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/konave1/.gradle/caches/transforms-2/files-2.1/8267f0c05c14d0a42520e969e74d4d09/jetified-crashlytics-2.10.1/AndroidManifest.xml:20:13-75
+502            android:authorities="com.trimax.vts.mobile.crashlyticsinitprovider"
+502-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/konave1/.gradle/caches/transforms-2/files-2.1/8267f0c05c14d0a42520e969e74d4d09/jetified-crashlytics-2.10.1/AndroidManifest.xml:21:13-75
+503            android:exported="false"
+503-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/konave1/.gradle/caches/transforms-2/files-2.1/8267f0c05c14d0a42520e969e74d4d09/jetified-crashlytics-2.10.1/AndroidManifest.xml:22:13-37
+504            android:initOrder="90" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+504-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/konave1/.gradle/caches/transforms-2/files-2.1/8267f0c05c14d0a42520e969e74d4d09/jetified-crashlytics-2.10.1/AndroidManifest.xml:23:13-35
+505        <activity
+505-->[com.google.android.play:core:1.7.2] /Users/konave1/.gradle/caches/transforms-2/files-2.1/ae94cf2cdf226af73e0de93d53ff03fc/jetified-core-1.7.2/AndroidManifest.xml:12:5-271
+506            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+506-->[com.google.android.play:core:1.7.2] /Users/konave1/.gradle/caches/transforms-2/files-2.1/ae94cf2cdf226af73e0de93d53ff03fc/jetified-core-1.7.2/AndroidManifest.xml:12:15-102
+507            android:enabled="false"
+507-->[com.google.android.play:core:1.7.2] /Users/konave1/.gradle/caches/transforms-2/files-2.1/ae94cf2cdf226af73e0de93d53ff03fc/jetified-core-1.7.2/AndroidManifest.xml:12:103-126
+508            android:exported="false"
+508-->[com.google.android.play:core:1.7.2] /Users/konave1/.gradle/caches/transforms-2/files-2.1/ae94cf2cdf226af73e0de93d53ff03fc/jetified-core-1.7.2/AndroidManifest.xml:12:127-151
+509            android:launchMode="singleInstance"
+509-->[com.google.android.play:core:1.7.2] /Users/konave1/.gradle/caches/transforms-2/files-2.1/ae94cf2cdf226af73e0de93d53ff03fc/jetified-core-1.7.2/AndroidManifest.xml:12:204-239
+510            android:process=":playcore_missing_splits_activity"
+510-->[com.google.android.play:core:1.7.2] /Users/konave1/.gradle/caches/transforms-2/files-2.1/ae94cf2cdf226af73e0de93d53ff03fc/jetified-core-1.7.2/AndroidManifest.xml:12:152-203
+511            android:stateNotNeeded="true" />
+511-->[com.google.android.play:core:1.7.2] /Users/konave1/.gradle/caches/transforms-2/files-2.1/ae94cf2cdf226af73e0de93d53ff03fc/jetified-core-1.7.2/AndroidManifest.xml:12:240-269
+512        <activity
+512-->[com.google.android.play:core:1.7.2] /Users/konave1/.gradle/caches/transforms-2/files-2.1/ae94cf2cdf226af73e0de93d53ff03fc/jetified-core-1.7.2/AndroidManifest.xml:13:5-226
+513            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+513-->[com.google.android.play:core:1.7.2] /Users/konave1/.gradle/caches/transforms-2/files-2.1/ae94cf2cdf226af73e0de93d53ff03fc/jetified-core-1.7.2/AndroidManifest.xml:13:15-95
+514            android:enabled="false"
+514-->[com.google.android.play:core:1.7.2] /Users/konave1/.gradle/caches/transforms-2/files-2.1/ae94cf2cdf226af73e0de93d53ff03fc/jetified-core-1.7.2/AndroidManifest.xml:13:96-119
+515            android:exported="false"
+515-->[com.google.android.play:core:1.7.2] /Users/konave1/.gradle/caches/transforms-2/files-2.1/ae94cf2cdf226af73e0de93d53ff03fc/jetified-core-1.7.2/AndroidManifest.xml:13:120-144
+516            android:stateNotNeeded="true"
+516-->[com.google.android.play:core:1.7.2] /Users/konave1/.gradle/caches/transforms-2/files-2.1/ae94cf2cdf226af73e0de93d53ff03fc/jetified-core-1.7.2/AndroidManifest.xml:13:145-174
+517            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+517-->[com.google.android.play:core:1.7.2] /Users/konave1/.gradle/caches/transforms-2/files-2.1/ae94cf2cdf226af73e0de93d53ff03fc/jetified-core-1.7.2/AndroidManifest.xml:13:175-224
+518        <service
+518-->[com.google.android.play:core:1.7.2] /Users/konave1/.gradle/caches/transforms-2/files-2.1/ae94cf2cdf226af73e0de93d53ff03fc/jetified-core-1.7.2/AndroidManifest.xml:16:5-145
+519            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+519-->[com.google.android.play:core:1.7.2] /Users/konave1/.gradle/caches/transforms-2/files-2.1/ae94cf2cdf226af73e0de93d53ff03fc/jetified-core-1.7.2/AndroidManifest.xml:16:14-95
+520            android:enabled="false"
+520-->[com.google.android.play:core:1.7.2] /Users/konave1/.gradle/caches/transforms-2/files-2.1/ae94cf2cdf226af73e0de93d53ff03fc/jetified-core-1.7.2/AndroidManifest.xml:16:96-119
+521            android:exported="true" />
+521-->[com.google.android.play:core:1.7.2] /Users/konave1/.gradle/caches/transforms-2/files-2.1/ae94cf2cdf226af73e0de93d53ff03fc/jetified-core-1.7.2/AndroidManifest.xml:16:120-143
+522
+523        <activity
+523-->[com.google.android.gms:play-services-auth:17.0.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/45c95902747ef2719b2104a8f53b7fa7/jetified-play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+524            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+524-->[com.google.android.gms:play-services-auth:17.0.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/45c95902747ef2719b2104a8f53b7fa7/jetified-play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+525            android:excludeFromRecents="true"
+525-->[com.google.android.gms:play-services-auth:17.0.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/45c95902747ef2719b2104a8f53b7fa7/jetified-play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+526            android:exported="false"
+526-->[com.google.android.gms:play-services-auth:17.0.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/45c95902747ef2719b2104a8f53b7fa7/jetified-play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+527            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+527-->[com.google.android.gms:play-services-auth:17.0.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/45c95902747ef2719b2104a8f53b7fa7/jetified-play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+528        <!--
+529            Service handling Google Sign-In user revocation. For apps that do not integrate with
+530            Google Sign-In, this service will never be started.
+531        -->
+532        <service
+532-->[com.google.android.gms:play-services-auth:17.0.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/45c95902747ef2719b2104a8f53b7fa7/jetified-play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+533            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+533-->[com.google.android.gms:play-services-auth:17.0.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/45c95902747ef2719b2104a8f53b7fa7/jetified-play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+534            android:exported="true"
+534-->[com.google.android.gms:play-services-auth:17.0.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/45c95902747ef2719b2104a8f53b7fa7/jetified-play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+535            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+535-->[com.google.android.gms:play-services-auth:17.0.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/45c95902747ef2719b2104a8f53b7fa7/jetified-play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+536        <service
+536-->[androidx.room:room-runtime:2.2.5] /Users/konave1/.gradle/caches/transforms-2/files-2.1/e94ce6fe4e699f95235c464d54b92b95/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+537            android:name="androidx.room.MultiInstanceInvalidationService"
+537-->[androidx.room:room-runtime:2.2.5] /Users/konave1/.gradle/caches/transforms-2/files-2.1/e94ce6fe4e699f95235c464d54b92b95/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+538            android:directBootAware="true"
+538-->[androidx.room:room-runtime:2.2.5] /Users/konave1/.gradle/caches/transforms-2/files-2.1/e94ce6fe4e699f95235c464d54b92b95/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+539            android:exported="false" />
+539-->[androidx.room:room-runtime:2.2.5] /Users/konave1/.gradle/caches/transforms-2/files-2.1/e94ce6fe4e699f95235c464d54b92b95/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+540
+541        <receiver
+541-->[com.google.firebase:firebase-iid:20.1.4] /Users/konave1/.gradle/caches/transforms-2/files-2.1/7b0adf1055ba4bdcfe384f7096d87aba/jetified-firebase-iid-20.1.4/AndroidManifest.xml:37:9-44:20
+542            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+542-->[com.google.firebase:firebase-iid:20.1.4] /Users/konave1/.gradle/caches/transforms-2/files-2.1/7b0adf1055ba4bdcfe384f7096d87aba/jetified-firebase-iid-20.1.4/AndroidManifest.xml:38:13-78
+543            android:exported="true"
+543-->[com.google.firebase:firebase-iid:20.1.4] /Users/konave1/.gradle/caches/transforms-2/files-2.1/7b0adf1055ba4bdcfe384f7096d87aba/jetified-firebase-iid-20.1.4/AndroidManifest.xml:39:13-36
+544            android:permission="com.google.android.c2dm.permission.SEND" >
+544-->[com.google.firebase:firebase-iid:20.1.4] /Users/konave1/.gradle/caches/transforms-2/files-2.1/7b0adf1055ba4bdcfe384f7096d87aba/jetified-firebase-iid-20.1.4/AndroidManifest.xml:40:13-73
+545            <intent-filter>
+545-->[com.google.firebase:firebase-iid:20.1.4] /Users/konave1/.gradle/caches/transforms-2/files-2.1/7b0adf1055ba4bdcfe384f7096d87aba/jetified-firebase-iid-20.1.4/AndroidManifest.xml:41:13-43:29
+546                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+546-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:63:17-81
+546-->[com.onesignal:OneSignal:3.12.3] /Users/konave1/.gradle/caches/transforms-2/files-2.1/2436ce5e5bf47182423814327528ff6f/jetified-OneSignal-3.12.3/AndroidManifest.xml:63:25-78
+547            </intent-filter>
+548        </receiver>
+549        <receiver
+549-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:29:9-33:20
+550            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+550-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:30:13-85
+551            android:enabled="true"
+551-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:31:13-35
+552            android:exported="false" >
+552-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:32:13-37
+553        </receiver>
+554        <receiver
+554-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:34:9-42:20
+555            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+555-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:35:13-100
+556            android:enabled="true"
+556-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:36:13-35
+557            android:exported="true"
+557-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:37:13-36
+558            android:permission="android.permission.INSTALL_PACKAGES" >
+558-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:38:13-69
+559            <intent-filter>
+559-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:39:13-41:29
+560                <action android:name="com.android.vending.INSTALL_REFERRER" />
+560-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:40:17-79
+560-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:40:25-76
+561            </intent-filter>
+562        </receiver>
+563
+564        <service
+564-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:44:9-47:40
+565            android:name="com.google.android.gms.measurement.AppMeasurementService"
+565-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:45:13-84
+566            android:enabled="true"
+566-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:46:13-35
+567            android:exported="false" />
+567-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:47:13-37
+568        <service
+568-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:48:9-52:72
+569            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+569-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:49:13-87
+570            android:enabled="true"
+570-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:50:13-35
+571            android:exported="false"
+571-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:51:13-37
+572            android:permission="android.permission.BIND_JOB_SERVICE" />
+572-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/19d01de2ac0ffeb51cdaf1d72590ce4b/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:52:13-69
+573
+574        <activity
+574-->[com.google.android.gms:play-services-base:17.1.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/d44f40c14897de43222ab741d9dfdca3/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+575            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+575-->[com.google.android.gms:play-services-base:17.1.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/d44f40c14897de43222ab741d9dfdca3/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+576            android:exported="false"
+576-->[com.google.android.gms:play-services-base:17.1.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/d44f40c14897de43222ab741d9dfdca3/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+577            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+577-->[com.google.android.gms:play-services-base:17.1.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/d44f40c14897de43222ab741d9dfdca3/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+578
+579        <provider
+579-->[com.google.firebase:firebase-common:19.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/a5d4827be5cfd486700ed44f7959715a/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+580            android:name="com.google.firebase.provider.FirebaseInitProvider"
+580-->[com.google.firebase:firebase-common:19.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/a5d4827be5cfd486700ed44f7959715a/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+581            android:authorities="com.trimax.vts.mobile.firebaseinitprovider"
+581-->[com.google.firebase:firebase-common:19.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/a5d4827be5cfd486700ed44f7959715a/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+582            android:exported="false"
+582-->[com.google.firebase:firebase-common:19.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/a5d4827be5cfd486700ed44f7959715a/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+583            android:initOrder="100" />
+583-->[com.google.firebase:firebase-common:19.3.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/a5d4827be5cfd486700ed44f7959715a/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+584        <provider
+584-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/beb118fc1153f61642db9b81b3bd8179/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+585            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+585-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/beb118fc1153f61642db9b81b3bd8179/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+586            android:authorities="com.trimax.vts.mobile.lifecycle-process"
+586-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/beb118fc1153f61642db9b81b3bd8179/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+587            android:exported="false"
+587-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/beb118fc1153f61642db9b81b3bd8179/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+588            android:multiprocess="true" />
+588-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/beb118fc1153f61642db9b81b3bd8179/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+589
+590        <service
+590-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/5f876412429beba4af6dd41298d3183b/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+591            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+591-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/5f876412429beba4af6dd41298d3183b/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+592            android:exported="false" >
+592-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/5f876412429beba4af6dd41298d3183b/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+593            <meta-data
+593-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/5f876412429beba4af6dd41298d3183b/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+594                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+594-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/5f876412429beba4af6dd41298d3183b/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+595                android:value="cct" />
+595-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/5f876412429beba4af6dd41298d3183b/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+596        </service>
+597        <service
+597-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/aeed8de7c1ce9d0f005f5a37ec74de66/jetified-transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+598            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+598-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/aeed8de7c1ce9d0f005f5a37ec74de66/jetified-transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+599            android:exported="false"
+599-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/aeed8de7c1ce9d0f005f5a37ec74de66/jetified-transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+600            android:permission="android.permission.BIND_JOB_SERVICE" >
+600-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/aeed8de7c1ce9d0f005f5a37ec74de66/jetified-transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+601        </service>
+602
+603        <receiver
+603-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/aeed8de7c1ce9d0f005f5a37ec74de66/jetified-transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+604            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+604-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/aeed8de7c1ce9d0f005f5a37ec74de66/jetified-transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+605            android:exported="false" />
+605-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/konave1/.gradle/caches/transforms-2/files-2.1/aeed8de7c1ce9d0f005f5a37ec74de66/jetified-transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+606    </application>
+607
+608</manifest>
